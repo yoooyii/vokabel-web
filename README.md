@@ -57,7 +57,7 @@
 ## 🌐 访问网页
 你可以直接访问：
 
-👉 [https://yooyii.github.io/vokabel-web/](https://yooyii.github.io/vokabel-web/)
+👉 [https://yoooyii.github.io/vokabel-web/](https://yoooyii.github.io/vokabel-web/)
 
 ---
 
@@ -121,3 +121,4 @@ Bei Urheberrechtsbedenken werden die Inhalte auf Anfrage entfernt.
 ---
 
 📧 *Für Rückfragen oder Hinweise zu Urheberrecht: bitte kontaktieren Sie mich direkt über GitHub.*
+
