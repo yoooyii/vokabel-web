@@ -1,0 +1,282 @@
+[
+  {
+    "de": "null",
+    "zh": "0",
+    "example": "Er hat null Punkte.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "eins",
+    "zh": "1",
+    "example": "Ich bin 1 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "zwei",
+    "zh": "2",
+    "example": "Ich bin 2 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "drei",
+    "zh": "3",
+    "example": "Ich bin 3 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "vier",
+    "zh": "4",
+    "example": "Ich bin 4 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "fünf",
+    "zh": "5",
+    "example": "Ich bin 5 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "sechs",
+    "zh": "6",
+    "example": "Ich bin 6 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "sieben",
+    "zh": "7",
+    "example": "Ich bin 7 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "acht",
+    "zh": "8",
+    "example": "Ich bin 8 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "neun",
+    "zh": "9",
+    "example": "Ich bin 9 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "zehn",
+    "zh": "10",
+    "example": "Ich bin 10 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "elf",
+    "zh": "11",
+    "example": "Ich bin 11 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "zwölf",
+    "zh": "12",
+    "example": "Ich bin 12 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "dreizehn",
+    "zh": "13",
+    "example": "Ich bin 13 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "vierzehn",
+    "zh": "14",
+    "example": "Ich bin 14 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "fünfzehn",
+    "zh": "15",
+    "example": "Ich bin 15 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "sechzehn",
+    "zh": "16",
+    "example": "Ich bin 16 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "siebzehn",
+    "zh": "17",
+    "example": "Ich bin 17 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "achtzehn",
+    "zh": "18",
+    "example": "Ich bin 18 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "neunzehn",
+    "zh": "19",
+    "example": "Ich bin 19 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "zwanzig",
+    "zh": "20",
+    "example": "Ich bin 20 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "einundzwanzig",
+    "zh": "21",
+    "example": "Ich bin 21 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "zweiundzwanzig",
+    "zh": "22",
+    "example": "Ich bin 22 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "dreiundzwanzig",
+    "zh": "23",
+    "example": "Ich bin 23 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "vierundzwanzig",
+    "zh": "24",
+    "example": "Ich bin 24 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "fünfundzwanzig",
+    "zh": "25",
+    "example": "Ich bin 25 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "sechsundzwanzig",
+    "zh": "26",
+    "example": "Ich bin 26 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "siebenundzwanzig",
+    "zh": "27",
+    "example": "Ich bin 27 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "achtundzwanzig",
+    "zh": "28",
+    "example": "Ich bin 28 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "neunundzwanzig",
+    "zh": "29",
+    "example": "Ich bin 29 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "dreißig",
+    "zh": "30",
+    "example": "Ich bin 30 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "einunddreißig",
+    "zh": "31",
+    "example": "Ich bin 31 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "zweiunddreißig",
+    "zh": "32",
+    "example": "Ich bin 32 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "vierzig",
+    "zh": "40",
+    "example": "Ich bin 40 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "fünfzig",
+    "zh": "50",
+    "example": "Ich bin 50 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "sechzig",
+    "zh": "60",
+    "example": "Ich bin 60 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "siebzig",
+    "zh": "70",
+    "example": "Ich bin 70 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "achtzig",
+    "zh": "80",
+    "example": "Ich bin 80 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "neunzig",
+    "zh": "90",
+    "example": "Ich bin 90 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  },
+  {
+    "de": "(ein)hundert",
+    "zh": "100",
+    "example": "Ich bin 100 Jahre alt.",
+    "image": "",
+    "hint": "Zahlwort（数词）"
+  }
+]

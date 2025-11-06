@@ -1,0 +1,835 @@
+[
+  {
+    "de": "Ach du liebe Zeit!",
+    "zh": "哎呀，天哪！",
+    "example": "Ach du liebe Zeit! Ich habe den Zug fast verpasst.",
+    "image": "",
+    "hint": "感叹语"
+  },
+  {
+    "de": "lieb",
+    "zh": "可爱的；亲爱的",
+    "example": "Sie ist ein lieber Mensch.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "spät",
+    "zh": "晚的；迟的",
+    "example": "Er kommt heute spät nach Hause.",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "der Bahnhof",
+    "zh": "火车站",
+    "example": "Wir treffen uns am Bahnhof.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Bahnhöfe"
+  },
+  {
+    "de": "der Wecker",
+    "zh": "闹钟",
+    "example": "Der Wecker klingelt um sieben.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Wecker"
+  },
+  {
+    "de": "das Radio",
+    "zh": "收音机",
+    "example": "Ich höre morgens Radio.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Radios"
+  },
+  {
+    "de": "die Armbanduhr",
+    "zh": "手表",
+    "example": "Meine Armbanduhr ist neu.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Armbanduhren"
+  },
+  {
+    "de": "von ... bis ...",
+    "zh": "从……到……",
+    "example": "Der Kurs geht von acht bis zehn.",
+    "image": "",
+    "hint": "时间介词短语"
+  },
+  {
+    "de": "bis +Akk.",
+    "zh": "直到（时间/地点）",
+    "example": "Ich bleibe bis nächsten Montag.",
+    "image": "",
+    "hint": "介词 +Akk."
+  },
+  {
+    "de": "um +Akk.",
+    "zh": "在……点钟",
+    "example": "Der Unterricht beginnt um neun.",
+    "image": "",
+    "hint": "介词 +Akk."
+  },
+  {
+    "de": "früh",
+    "zh": "早的；早地",
+    "example": "Ich stehe früh auf.",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "der Vormittag",
+    "zh": "上午",
+    "example": "Am Vormittag lerne ich in der Bib.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Vormittage"
+  },
+  {
+    "de": "die Stunde",
+    "zh": "小时；课时",
+    "example": "Die Stunde dauert 45 Minuten.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Stunden"
+  },
+  {
+    "de": "die Pünktlichkeit",
+    "zh": "准时",
+    "example": "Pünktlichkeit ist hier sehr wichtig.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "fahren (+Dir.)",
+    "zh": "行驶；乘车去",
+    "example": "Ich fahre zur Uni.",
+    "image": "",
+    "hint": "动词 + 方向"
+  },
+  {
+    "de": "zu +Dat.",
+    "zh": "到，向；去",
+    "example": "Ich gehe zu meinem Freund.",
+    "image": "",
+    "hint": "介词 +Dativ"
+  },
+  {
+    "de": "laufen (+Dir.)",
+    "zh": "跑；步行去",
+    "example": "Ich laufe nach Hause.",
+    "image": "",
+    "hint": "动词 + 方向"
+  },
+  {
+    "de": "das Viertel",
+    "zh": "四分之一",
+    "example": "Es ist Viertel nach acht.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "nach +Dat.",
+    "zh": "在……之后；（时间）……点过",
+    "example": "Viertel nach neun.",
+    "image": "",
+    "hint": "介词 +Dativ"
+  },
+  {
+    "de": "einverstanden (+mit)",
+    "zh": "同意",
+    "example": "Bist du damit einverstanden?",
+    "image": "",
+    "hint": "形容词 +mit +Dativ"
+  },
+  {
+    "de": "pünktlich",
+    "zh": "准时的",
+    "example": "Er ist immer pünktlich.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "immer",
+    "zh": "一直，总是",
+    "example": "Sie kommt immer zu spät.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "nie",
+    "zh": "从不，从来不",
+    "example": "Ich trinke nie Kaffee abends.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "die Person",
+    "zh": "人；个人",
+    "example": "Nur eine Person war im Zimmer.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Personen"
+  },
+  {
+    "de": "Tut mir Leid.",
+    "zh": "（我）很抱歉。",
+    "example": "Tut mir Leid, ich bin zu spät.",
+    "image": "",
+    "hint": "固定表达"
+  },
+  {
+    "de": "vor +Dat./Akk.",
+    "zh": "在……前；……以前",
+    "example": "Vor dem Unterricht trinke ich Tee.",
+    "image": "",
+    "hint": "介词 +Dativ/Akk."
+  },
+  {
+    "de": "stehen (+Situativ)",
+    "zh": "站立；（钟表）停着",
+    "example": "Der Bus steht vor der Mensa.",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "halb",
+    "zh": "半",
+    "example": "Es ist halb sieben.",
+    "image": "",
+    "hint": "数词/副词"
+  },
+  {
+    "de": "weg",
+    "zh": "走开；离开",
+    "example": "Er ist schon weg.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "dann",
+    "zh": "然后；那么",
+    "example": "Wir essen und dann lernen wir.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "nach/gehen (Uhr)",
+    "zh": "（钟表）慢",
+    "example": "Meine Uhr geht nach.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "vor/gehen (Uhr)",
+    "zh": "（钟表）快",
+    "example": "Deine Uhr geht vor.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "der Mitstudent",
+    "zh": "大学男同学",
+    "example": "Mein Mitstudent hilft mir oft.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Mitstudenten"
+  },
+  {
+    "de": "die Mitstudentin",
+    "zh": "大学女同学",
+    "example": "Die Mitstudentin wohnt neben mir.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Mitstudentinnen"
+  },
+  {
+    "de": "wie lange",
+    "zh": "多久，多长时间",
+    "example": "Wie lange dauert der Film?",
+    "image": "",
+    "hint": "疑问短语"
+  },
+  {
+    "de": "lange",
+    "zh": "很久；长时间地",
+    "example": "Ich habe lange gewartet.",
+    "image": "",
+    "hint": "副词/形容词"
+  },
+  {
+    "de": "der Zug",
+    "zh": "火车",
+    "example": "Der Zug kommt pünktlich.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Züge"
+  },
+  {
+    "de": "morgens",
+    "zh": "在早晨",
+    "example": "Morgens trinke ich Tee.",
+    "image": "",
+    "hint": "时间副词"
+  },
+  {
+    "de": "mittags",
+    "zh": "在中午",
+    "example": "Mittags essen wir in der Mensa.",
+    "image": "",
+    "hint": "时间副词"
+  },
+  {
+    "de": "nachts",
+    "zh": "在夜里",
+    "example": "Nachts ist es ruhig.",
+    "image": "",
+    "hint": "时间副词"
+  },
+  {
+    "de": "die Fahrt",
+    "zh": "行驶；旅程",
+    "example": "Die Fahrt dauert zwei Stunden.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Fahrten"
+  },
+  {
+    "de": "die Dreiviertelstunde",
+    "zh": "三刻钟（45分钟）",
+    "example": "Die Pause dauert eine Dreiviertelstunde.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "die Fahrkarte",
+    "zh": "车票",
+    "example": "Ich kaufe eine Fahrkarte nach Nürnberg.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Fahrkarten"
+  },
+  {
+    "de": "der Fahrkartenschalter",
+    "zh": "售票窗口",
+    "example": "Die Schlange am Fahrkartenschalter ist lang.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "von ... nach ...",
+    "zh": "从……到……",
+    "example": "Der Zug fährt von Karlsruhe nach Salzburg.",
+    "image": "",
+    "hint": "介词短语"
+  },
+  {
+    "de": "die Minute",
+    "zh": "分钟",
+    "example": "In fünf Minuten beginnt der Unterricht.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Minuten"
+  },
+  {
+    "de": "die Viertelstunde",
+    "zh": "一刻钟（15分钟）",
+    "example": "Ich brauche eine Viertelstunde.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "eineinhalb / anderthalb",
+    "zh": "一个半",
+    "example": "Der Film dauert anderthalb Stunden.",
+    "image": "",
+    "hint": "数词"
+  },
+  {
+    "de": "das Fernsehen",
+    "zh": "电视；电视业",
+    "example": "Abends schaue ich selten Fernsehen.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "der Film",
+    "zh": "电影",
+    "example": "Welcher Film läuft heute?",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Filme"
+  },
+  {
+    "de": "anfangen (+mit)",
+    "zh": "开始",
+    "example": "Wir fangen mit Text 3 an.",
+    "image": "",
+    "hint": "可分动词 +mit +D"
+  },
+  {
+    "de": "kurz",
+    "zh": "短的；简短的",
+    "example": "Wir machen eine kurze Pause.",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "das Ende",
+    "zh": "末尾；结束",
+    "example": "Am Ende der Stunde schreiben wir.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Enden"
+  },
+  {
+    "de": "zu Ende sein",
+    "zh": "结束",
+    "example": "Die Stunde ist zu Ende.",
+    "image": "",
+    "hint": "固定表达"
+  },
+  {
+    "de": "der Schultag",
+    "zh": "在学校的一天",
+    "example": "Ein Schultag ist oft lang.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Schultage"
+  },
+  {
+    "de": "Punkt sieben",
+    "zh": "七点整",
+    "example": "Er steht Punkt sieben auf.",
+    "image": "",
+    "hint": "时间表达"
+  },
+  {
+    "de": "klingeln",
+    "zh": "发出铃声",
+    "example": "Der Wecker klingelt laut.",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "meinen (+A)",
+    "zh": "认为；觉得；说",
+    "example": "Ich meine, das ist richtig.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "schlafen",
+    "zh": "睡觉",
+    "example": "Er schläft bis neun.",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "gegen (+A)",
+    "zh": "将近；大约（时间）",
+    "example": "Gegen acht fahre ich los.",
+    "image": "",
+    "hint": "介词 +Akk."
+  },
+  {
+    "de": "auf/stehen",
+    "zh": "起床；站起",
+    "example": "Ich stehe jeden Tag früh auf.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "die Unterrichtsstunde",
+    "zh": "课时；课堂",
+    "example": "Wir haben heute drei Unterrichtsstunden.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Unterrichtsstunden"
+  },
+  {
+    "de": "meistens",
+    "zh": "大多，通常",
+    "example": "Ich esse mittags meistens in der Mensa.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "lang",
+    "zh": "长的；长久的",
+    "example": "Der Tag ist lang.",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "nachmittags",
+    "zh": "在下午",
+    "example": "Nachmittags spiele ich Sport.",
+    "image": "",
+    "hint": "时间副词"
+  },
+  {
+    "de": "selten",
+    "zh": "很少，难得",
+    "example": "Ich gehe selten ins Kino.",
+    "image": "",
+    "hint": "副词/形容词"
+  },
+  {
+    "de": "zu Hause",
+    "zh": "在家",
+    "example": "Am Wochenende bin ich zu Hause.",
+    "image": "",
+    "hint": "固定表达"
+  },
+  {
+    "de": "die Aufgabe",
+    "zh": "任务；作业",
+    "example": "Ich habe heute viele Aufgaben.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Aufgaben"
+  },
+  {
+    "de": "die Hausaufgabe",
+    "zh": "家庭作业",
+    "example": "Er macht jeden Abend Hausaufgaben.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Hausaufgaben"
+  },
+  {
+    "de": "weg/gehen",
+    "zh": "离开；走开",
+    "example": "Ich gehe jetzt weg.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "spielen (+A)",
+    "zh": "玩；演奏；比赛",
+    "example": "Wir spielen abends Tischtennis.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "abends",
+    "zh": "在晚上",
+    "example": "Abends lese ich Bücher.",
+    "image": "",
+    "hint": "时间副词"
+  },
+  {
+    "de": "oder",
+    "zh": "或者；还是",
+    "example": "Trinkst du Tee oder Kaffee?",
+    "image": "",
+    "hint": "连词"
+  },
+  {
+    "de": "fern/sehen",
+    "zh": "看电视",
+    "example": "Meine Eltern sehen selten fern.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "manchmal",
+    "zh": "有时",
+    "example": "Manchmal gehe ich joggen.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "das Bett",
+    "zh": "床",
+    "example": "Ich gehe früh ins Bett.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Betten"
+  },
+  {
+    "de": "ins Bett gehen",
+    "zh": "上床睡觉",
+    "example": "Ich gehe um elf ins Bett.",
+    "image": "",
+    "hint": "固定表达"
+  },
+  {
+    "de": "der Montag",
+    "zh": "星期一",
+    "example": "Der Montag ist immer stressig.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Montage"
+  },
+  {
+    "de": "der Dienstag",
+    "zh": "星期二",
+    "example": "Dienstag habe ich Sport.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Dienstage"
+  },
+  {
+    "de": "der Mittwoch",
+    "zh": "星期三",
+    "example": "Mittwoch ist der Deutschkurs.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Mittwoche"
+  },
+  {
+    "de": "der Donnerstag",
+    "zh": "星期四",
+    "example": "Donnerstag arbeite ich im Labor.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Donnerstage"
+  },
+  {
+    "de": "der Freitag",
+    "zh": "星期五",
+    "example": "Freitag gehen wir ins Kino.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Freitage"
+  },
+  {
+    "de": "der Sonnabend/Samstag",
+    "zh": "星期六",
+    "example": "Samstag spiele ich Fußball.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Sonntag",
+    "zh": "星期日",
+    "example": "Sonntag besuche ich meine Eltern.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Sonntage"
+  },
+  {
+    "de": "vor/haben (+A)",
+    "zh": "打算；计划",
+    "example": "Ich habe morgen viel vor.",
+    "image": "",
+    "hint": "可分动词 +Akk."
+  },
+  {
+    "de": "vormittags",
+    "zh": "在上午",
+    "example": "Vormittags lerne ich.",
+    "image": "",
+    "hint": "时间副词"
+  },
+  {
+    "de": "die Uhrzeit",
+    "zh": "钟点时间；时刻",
+    "example": "Wie spät ist es? Welche Uhrzeit?",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "der Sport",
+    "zh": "体育；运动",
+    "example": "Ich mache dreimal pro Woche Sport.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "das Mittagessen",
+    "zh": "午饭",
+    "example": "Das Mittagessen gibt es um zwölf.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "die Nacht",
+    "zh": "夜里；夜晚",
+    "example": "In der Nacht ist es ruhig.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Nächte"
+  },
+  {
+    "de": "das Tischtennis",
+    "zh": "乒乓球",
+    "example": "Wir spielen Tischtennis in der Halle.",
+    "image": "",
+    "hint": "名词, 中性（不可数）"
+  },
+  {
+    "de": "sehen (+A)",
+    "zh": "看；看到",
+    "example": "Ich sehe den Film heute Abend.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "der Monat",
+    "zh": "月份",
+    "example": "Ein Jahr hat zwölf Monate.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Monate"
+  },
+  {
+    "de": "der Januar",
+    "zh": "一月",
+    "example": "Im Januar ist es kalt.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Februar",
+    "zh": "二月",
+    "example": "Der Februar hat 28 Tage.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der März",
+    "zh": "三月",
+    "example": "Im März beginnt der Frühling.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der April",
+    "zh": "四月",
+    "example": "April macht, was er will.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Mai",
+    "zh": "五月",
+    "example": "Im Mai blühen viele Blumen.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Juni",
+    "zh": "六月",
+    "example": "Im Juni haben wir Prüfungen.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Juli",
+    "zh": "七月",
+    "example": "Im Juli fahre ich nach Hause.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der August",
+    "zh": "八月",
+    "example": "Im August mache ich Urlaub.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der September",
+    "zh": "九月",
+    "example": "September beginnt das neue Semester.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Oktober",
+    "zh": "十月",
+    "example": "Im Oktober ist es windig.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der November",
+    "zh": "十一月",
+    "example": "Im November regnet es oft.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Dezember",
+    "zh": "十二月",
+    "example": "Im Dezember feiern wir Weihnachten.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Frühling",
+    "zh": "春天",
+    "example": "Der Frühling ist meine Lieblingsjahreszeit.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Frühlinge"
+  },
+  {
+    "de": "der Sommer",
+    "zh": "夏天",
+    "example": "Der Sommer ist heiß.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Herbst",
+    "zh": "秋天",
+    "example": "Der Herbst ist bunt.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Herbste"
+  },
+  {
+    "de": "der Winter",
+    "zh": "冬天",
+    "example": "Der Winter ist kalt.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "Was ist da los?",
+    "zh": "那里发生了什么？",
+    "example": "Was ist da los? So viele Leute!",
+    "image": "",
+    "hint": "固定表达"
+  },
+  {
+    "de": "interessant",
+    "zh": "有趣的",
+    "example": "Der Vortrag ist interessant.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "mit/fahren",
+    "zh": "一起乘车去",
+    "example": "Fährst du mit zur Uni?",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "der Chinese",
+    "zh": "中国人（男）",
+    "example": "Er ist Chinese und studiert in Deutschland.",
+    "image": "",
+    "hint": "名词, 阳性; 弱变化: des Chinesen"
+  },
+  {
+    "de": "die Klinik",
+    "zh": "医院；诊疗所",
+    "example": "Sie arbeitet in einer Klinik.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Kliniken"
+  },
+  {
+    "de": "das Fußballspiel",
+    "zh": "足球赛",
+    "example": "Am Samstag ist ein Fußballspiel.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Fußballspiele"
+  },
+  {
+    "de": "Karlsruhe",
+    "zh": "卡尔斯鲁厄",
+    "example": "Er wohnt in Karlsruhe.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Salzburg",
+    "zh": "萨尔茨堡",
+    "example": "Salzburg ist sehr schön.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Nürnberg",
+    "zh": "纽伦堡",
+    "example": "Der Zug nach Nürnberg ist pünktlich.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Hongkong",
+    "zh": "香港",
+    "example": "Viele Touristen besuchen Hongkong.",
+    "image": "",
+    "hint": "Stadt/Region"
+  }
+]

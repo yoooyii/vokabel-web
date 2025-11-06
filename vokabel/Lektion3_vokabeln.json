@@ -1,0 +1,338 @@
+[
+  {
+    "de": "woher",
+    "zh": "从哪里；从何处",
+    "example": "Woher kommst du?",
+    "image": "",
+    "hint": "疑问副词"
+  },
+  {
+    "de": "kommen",
+    "zh": "来",
+    "example": "Ich komme aus Deutschland.",
+    "image": "",
+    "hint": "动词 (+Dir.)"
+  },
+  {
+    "de": "Woher kommt X?",
+    "zh": "某某是哪里人/从哪儿来？",
+    "example": "Woher kommt er?",
+    "image": "",
+    "hint": "句型"
+  },
+  {
+    "de": "sie",
+    "zh": "她",
+    "example": "Sie kommt aus China.",
+    "image": "",
+    "hint": "人称代词"
+  },
+  {
+    "de": "aus + D",
+    "zh": "从……来",
+    "example": "Sie kommt aus Berlin.",
+    "image": "",
+    "hint": "介词短语"
+  },
+  {
+    "de": "Sie kommt/ist aus ...",
+    "zh": "她来自……；她是……人。",
+    "example": "Sie ist aus Japan.",
+    "image": "",
+    "hint": "句型"
+  },
+  {
+    "de": "was",
+    "zh": "什么",
+    "example": "Was ist das?",
+    "image": "",
+    "hint": "疑问代词"
+  },
+  {
+    "de": "Was ist X?",
+    "zh": "某某是干什么的？",
+    "example": "Was ist er von Beruf?",
+    "image": "",
+    "hint": "句型"
+  },
+  {
+    "de": "der Lehrer",
+    "zh": "教师",
+    "example": "Der Lehrer ist freundlich.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Lehrer"
+  },
+  {
+    "de": "die Lehrerin",
+    "zh": "女教师",
+    "example": "Die Lehrerin ist nett.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Lehrerinnen"
+  },
+  {
+    "de": "der Schüler",
+    "zh": "（中、小）学生",
+    "example": "Der Schüler lernt Deutsch.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Schüler"
+  },
+  {
+    "de": "die Schülerin",
+    "zh": "女学生（中小学）",
+    "example": "Die Schülerin schreibt.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Schülerinnen"
+  },
+  {
+    "de": "der Student",
+    "zh": "大学生",
+    "example": "Der Student wohnt in Köln.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Studenten"
+  },
+  {
+    "de": "die Studentin",
+    "zh": "女大学生",
+    "example": "Die Studentin studiert Biologie.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Studentinnen"
+  },
+  {
+    "de": "die Kamera",
+    "zh": "照相机",
+    "example": "Die Kamera ist neu.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Kameras"
+  },
+  {
+    "de": "die CD",
+    "zh": "光盘",
+    "example": "Ich höre eine CD.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: CDs"
+  },
+  {
+    "de": "er",
+    "zh": "他",
+    "example": "Er ist Lehrer.",
+    "image": "",
+    "hint": "人称代词"
+  },
+  {
+    "de": "sein",
+    "zh": "是",
+    "example": "Er ist Student.",
+    "image": "",
+    "hint": "动词 (不规则)"
+  },
+  {
+    "de": "dort",
+    "zh": "那里",
+    "example": "Dort ist das Haus.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "das Internet",
+    "zh": "互联网",
+    "example": "Ich lerne Deutsch im Internet.",
+    "image": "",
+    "hint": "名词, 中性; 复数: -"
+  },
+  {
+    "de": "Jutta",
+    "zh": "尤塔（女名）",
+    "example": "Sie heißt Jutta.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Judith",
+    "zh": "尤迪特（女名）",
+    "example": "Sie heißt Judith.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Stephan",
+    "zh": "施特凡（男名）",
+    "example": "Er heißt Stephan.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Helga",
+    "zh": "海尔加（女名）",
+    "example": "Sie heißt Helga.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Euler",
+    "zh": "欧拉（姓氏）",
+    "example": "Er heißt Euler.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Meier",
+    "zh": "迈尔（姓氏）",
+    "example": "Er heißt Meier.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Groß",
+    "zh": "格罗斯（姓氏）",
+    "example": "Er heißt Groß.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Klein",
+    "zh": "克莱因（姓氏）",
+    "example": "Er heißt Klein.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Keun",
+    "zh": "科因（姓氏）",
+    "example": "Er heißt Keun.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Spöri",
+    "zh": "施佩里（姓氏）",
+    "example": "Er heißt Spöri.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Europa",
+    "zh": "欧洲",
+    "example": "Europa ist groß.",
+    "image": "",
+    "hint": "Kontinent"
+  },
+  {
+    "de": "Afrika",
+    "zh": "非洲",
+    "example": "Afrika ist warm.",
+    "image": "",
+    "hint": "Kontinent"
+  },
+  {
+    "de": "Asien",
+    "zh": "亚洲",
+    "example": "Asien ist groß.",
+    "image": "",
+    "hint": "Kontinent"
+  },
+  {
+    "de": "Amerika",
+    "zh": "美洲",
+    "example": "Amerika ist weit.",
+    "image": "",
+    "hint": "Kontinent"
+  },
+  {
+    "de": "Deutschland",
+    "zh": "德国",
+    "example": "Ich komme aus Deutschland.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "Frankreich",
+    "zh": "法国",
+    "example": "Ich komme aus Frankreich.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "Italien",
+    "zh": "意大利",
+    "example": "Ich komme aus Italien.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "Österreich",
+    "zh": "奥地利",
+    "example": "Ich komme aus Österreich.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "Australien",
+    "zh": "澳大利亚",
+    "example": "Ich komme aus Australien.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "England",
+    "zh": "英国",
+    "example": "Ich komme aus England.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "Japan",
+    "zh": "日本",
+    "example": "Ich komme aus Japan.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "Korea",
+    "zh": "韩国",
+    "example": "Ich komme aus Korea.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "Berlin",
+    "zh": "柏林",
+    "example": "Berlin ist schön.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Frankfurt",
+    "zh": "法兰克福",
+    "example": "Frankfurt ist groß.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Köln",
+    "zh": "科隆",
+    "example": "Köln liegt am Rhein.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Bonn",
+    "zh": "波恩",
+    "example": "Bonn ist ruhig.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Leipzig",
+    "zh": "莱比锡",
+    "example": "Leipzig ist alt.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Bern",
+    "zh": "伯尔尼",
+    "example": "Bern ist die Hauptstadt der Schweiz.",
+    "image": "",
+    "hint": "Stadt"
+  }
+]

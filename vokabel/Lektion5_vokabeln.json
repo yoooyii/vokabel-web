@@ -1,0 +1,240 @@
+[
+  {
+    "de": "das Zimmer",
+    "zh": "房间",
+    "example": "Das Zimmer ist groß.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Zimmer"
+  },
+  {
+    "de": "das Klassenzimmer",
+    "zh": "教室",
+    "example": "Das Klassenzimmer ist hell.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "ein/eine",
+    "zh": "一个",
+    "example": "Ich habe ein Buch.",
+    "image": "",
+    "hint": "不定冠词"
+  },
+  {
+    "de": "der Unterricht",
+    "zh": "上课；授课",
+    "example": "Der Unterricht beginnt um acht.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Stuhl",
+    "zh": "椅子",
+    "example": "Der Stuhl ist bequem.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Stühle"
+  },
+  {
+    "de": "der Tisch",
+    "zh": "桌子",
+    "example": "Der Tisch ist rund.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Tische"
+  },
+  {
+    "de": "die Landkarte",
+    "zh": "地图",
+    "example": "Die Landkarte hängt an der Wand.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Landkarten"
+  },
+  {
+    "de": "die Zeitung",
+    "zh": "报纸",
+    "example": "Ich lese die Zeitung.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Zeitungen"
+  },
+  {
+    "de": "die Tür",
+    "zh": "门",
+    "example": "Die Tür ist offen.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Türen"
+  },
+  {
+    "de": "das Fenster",
+    "zh": "窗户",
+    "example": "Das Fenster ist geschlossen.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Fenster"
+  },
+  {
+    "de": "fragen (+A)",
+    "zh": "问, 提问",
+    "example": "Ich frage den Lehrer.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "die Brille",
+    "zh": "眼镜",
+    "example": "Meine Brille ist neu.",
+    "image": "",
+    "hint": "名词, 阴性; 通常无复数"
+  },
+  {
+    "de": "die Tasche",
+    "zh": "袋子, 包",
+    "example": "Die Tasche ist teuer.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Taschen"
+  },
+  {
+    "de": "sagen (+A)",
+    "zh": "说",
+    "example": "Er sagt die Wahrheit.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "man",
+    "zh": "人们",
+    "example": "Man sagt, dass Deutsch schwer ist.",
+    "image": "",
+    "hint": "不定代词"
+  },
+  {
+    "de": "entschuldigen (+A)",
+    "zh": "原谅",
+    "example": "Entschuldigen Sie bitte!",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "die Frage",
+    "zh": "问题",
+    "example": "Ich habe eine Frage.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Fragen"
+  },
+  {
+    "de": "das Englisch",
+    "zh": "英语",
+    "example": "Er spricht Englisch.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "wissen (+A)",
+    "zh": "知道",
+    "example": "Ich weiß die Antwort.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "richtig",
+    "zh": "正确的",
+    "example": "Das ist richtig.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "die E-Mail",
+    "zh": "电子邮件",
+    "example": "Ich schreibe eine E-Mail.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: E-Mails"
+  },
+  {
+    "de": "buchstabieren (+A)",
+    "zh": "用字母拼写",
+    "example": "Buchstabieren Sie bitte Ihren Namen!",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "dein(e)",
+    "zh": "你的",
+    "example": "Das ist dein Buch.",
+    "image": "",
+    "hint": "物主代词"
+  },
+  {
+    "de": "du",
+    "zh": "你",
+    "example": "Du bist freundlich.",
+    "image": "",
+    "hint": "人称代词"
+  },
+  {
+    "de": "der Punkt",
+    "zh": "点；句号；要点",
+    "example": "Der Punkt ist klar.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Punkte"
+  },
+  {
+    "de": "tschüss",
+    "zh": "再见；回见",
+    "example": "Tschüss! Bis morgen!",
+    "image": "",
+    "hint": "告别用语"
+  },
+  {
+    "de": "Petra",
+    "zh": "佩特拉（女名）",
+    "example": "Sie heißt Petra.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Russland",
+    "zh": "俄罗斯",
+    "example": "Er kommt aus Russland.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "Holland",
+    "zh": "荷兰",
+    "example": "Sie kommt aus Holland.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "Spanien",
+    "zh": "西班牙",
+    "example": "Er kommt aus Spanien.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "Tschechien",
+    "zh": "捷克",
+    "example": "Er kommt aus Tschechien.",
+    "image": "",
+    "hint": "Land"
+  },
+  {
+    "de": "München",
+    "zh": "慕尼黑",
+    "example": "München ist schön.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Bremen",
+    "zh": "不来梅",
+    "example": "Er wohnt in Bremen.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Zürich",
+    "zh": "苏黎世",
+    "example": "Zürich ist in der Schweiz.",
+    "image": "",
+    "hint": "Stadt"
+  }
+]

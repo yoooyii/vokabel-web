@@ -1,0 +1,562 @@
+[
+  {
+    "de": "unser",
+    "zh": "我们的",
+    "example": "Das ist unser Campus.",
+    "image": "",
+    "hint": "物主代词"
+  },
+  {
+    "de": "der Campus",
+    "zh": "校园；学校场地",
+    "example": "Der Campus ist modern.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "modern",
+    "zh": "现代的；时髦的",
+    "example": "Das Gebäude ist modern.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "das Gebäude",
+    "zh": "楼；建筑物",
+    "example": "Das Gebäude hat fünf Stockwerke.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Gebäude"
+  },
+  {
+    "de": "rechts",
+    "zh": "右边",
+    "example": "Rechts ist die Bibliothek.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "links",
+    "zh": "左边",
+    "example": "Links ist die Mensa.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "erst",
+    "zh": "仅仅；才；刚才；首先",
+    "example": "Erst lernen wir, dann üben wir.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "das Sekretariat",
+    "zh": "办公室；秘书处",
+    "example": "Das Sekretariat ist im ersten Stock.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Sekretariate"
+  },
+  {
+    "de": "der Hörsaal",
+    "zh": "大教室；阶梯教室",
+    "example": "Der Hörsaal ist voll.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Hörsäle"
+  },
+  {
+    "de": "das Studentenwohnheim",
+    "zh": "大学生宿舍",
+    "example": "Ich wohne im Studentenwohnheim.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Studentenwohnheime"
+  },
+  {
+    "de": "neu",
+    "zh": "新的",
+    "example": "Ich habe ein neues Wörterbuch.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "die Mensa",
+    "zh": "学生食堂",
+    "example": "Wir essen in der Mensa.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Mensen"
+  },
+  {
+    "de": "die Abteilung",
+    "zh": "部门；科；系",
+    "example": "Die Deutschabteilung ist im Gebäude A.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Abteilungen"
+  },
+  {
+    "de": "die Deutschabteilung",
+    "zh": "德语系；德语部",
+    "example": "Ich arbeite in der Deutschabteilung.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "groß",
+    "zh": "大的",
+    "example": "Die Stadt ist groß.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "klein",
+    "zh": "小的",
+    "example": "Das Zimmer ist klein.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "die Bibliothek",
+    "zh": "图书馆",
+    "example": "Ich gehe in die Bibliothek.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Bibliotheken"
+  },
+  {
+    "de": "die Klasse",
+    "zh": "班级",
+    "example": "Unsere Klasse ist freundlich.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Klassen"
+  },
+  {
+    "de": "der Sportplatz",
+    "zh": "操场",
+    "example": "Wir treffen uns auf dem Sportplatz.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Sportplätze"
+  },
+  {
+    "de": "der Doktor (Dr.)",
+    "zh": "博士；医生",
+    "example": "Der Doktor kommt gleich.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Professor",
+    "zh": "教授",
+    "example": "Der Professor unterrichtet Grammatik.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Professoren"
+  },
+  {
+    "de": "unterrichten (+A)",
+    "zh": "教；授课",
+    "example": "Er unterrichtet die Klasse 1.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "kein",
+    "zh": "没有",
+    "example": "Ich habe kein Auto.",
+    "image": "",
+    "hint": "否定词（不定冠词变化）"
+  },
+  {
+    "de": "kein ... mehr",
+    "zh": "不再……",
+    "example": "Ich trinke keinen Kaffee mehr.",
+    "image": "",
+    "hint": "固定搭配"
+  },
+  {
+    "de": "jung",
+    "zh": "年轻的",
+    "example": "Die Studenten sind jung.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "doch",
+    "zh": "（语气词）强调或转折；当然",
+    "example": "Komm doch mit!",
+    "image": "",
+    "hint": "语气词/副词"
+  },
+  {
+    "de": "der Junge",
+    "zh": "男孩；少年",
+    "example": "Der Junge spielt Ball.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Jungen"
+  },
+  {
+    "de": "Na ja",
+    "zh": "那好吧；就这样吧",
+    "example": "Na ja, machen wir so.",
+    "image": "",
+    "hint": "口语语气词"
+  },
+  {
+    "de": "der Sekretär",
+    "zh": "秘书（男）",
+    "example": "Der Sekretär hilft dem Professor.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Sekretäre"
+  },
+  {
+    "de": "das Fahrrad",
+    "zh": "自行车",
+    "example": "Ich fahre jeden Tag Fahrrad.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Fahrräder"
+  },
+  {
+    "de": "kaputt",
+    "zh": "坏的；破的",
+    "example": "Mein Handy ist kaputt.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "erzählen (+A/von +D)",
+    "zh": "叙述；讲述",
+    "example": "Er erzählt eine Geschichte.",
+    "image": "",
+    "hint": "动词 +A/ von +D"
+  },
+  {
+    "de": "der Deutschlehrer",
+    "zh": "德语教师（男）",
+    "example": "Der Deutschlehrer ist streng.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "das Lehrbuch",
+    "zh": "教科书",
+    "example": "Das Lehrbuch ist neu.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Lehrbücher"
+  },
+  {
+    "de": "der Dialog",
+    "zh": "对话",
+    "example": "Der Dialog im Unterricht ist kurz.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Dialoge"
+  },
+  {
+    "de": "im Unterricht",
+    "zh": "在课堂上；上课时",
+    "example": "Wir sprechen im Unterricht Deutsch.",
+    "image": "",
+    "hint": "短语"
+  },
+  {
+    "de": "laut",
+    "zh": "大声的",
+    "example": "Bitte sprich nicht so laut.",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "deutlich",
+    "zh": "清楚的；明确的",
+    "example": "Bitte sprechen Sie deutlich.",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "öffnen (+A)",
+    "zh": "打开",
+    "example": "Er öffnet die Tür.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "die Seite",
+    "zh": "页；一面",
+    "example": "Lesen Sie die Seite zehn.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Seiten"
+  },
+  {
+    "de": "sprechen (+A/über +A)",
+    "zh": "说；谈论",
+    "example": "Wir sprechen über das Thema.",
+    "image": "",
+    "hint": "动词 +A / über +A"
+  },
+  {
+    "de": "das Wort",
+    "zh": "字；词",
+    "example": "Wie schreibt man dieses Wort?",
+    "image": "",
+    "hint": "名词, 中性; 复数: Wörter/Worte"
+  },
+  {
+    "de": "machen (+A)",
+    "zh": "做",
+    "example": "Wir machen die Übung 3.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "die Übung",
+    "zh": "练习",
+    "example": "Die Übung ist leicht.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Übungen"
+  },
+  {
+    "de": "leise",
+    "zh": "轻声的；小声的",
+    "example": "Bitte seid leise!",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "beginnen (+A/mit +D)",
+    "zh": "开始",
+    "example": "Der Unterricht beginnt um neun.",
+    "image": "",
+    "hint": "动词 +A / mit +D"
+  },
+  {
+    "de": "lesen (+A)",
+    "zh": "读；阅读",
+    "example": "Sie liest den Text.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "Aha!",
+    "zh": "啊哈！原来如此！",
+    "example": "Aha, jetzt verstehe ich.",
+    "image": "",
+    "hint": "感叹词"
+  },
+  {
+    "de": "der Singular",
+    "zh": "单数",
+    "example": "‚Haus‘ steht im Singular.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Plural",
+    "zh": "复数",
+    "example": "‚Häuser‘ ist der Plural von ‚Haus‘.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "verstehen (+A)",
+    "zh": "理解；明白",
+    "example": "Ich verstehe die Frage.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "wiederholen (+A)",
+    "zh": "重复；复习",
+    "example": "Bitte wiederholen Sie den Satz.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "das Studium",
+    "zh": "（在大学的）学习",
+    "example": "Sie beginnt ihr Studium in Mannheim.",
+    "image": "",
+    "hint": "名词, 中性; 复数 selten"
+  },
+  {
+    "de": "schließen (+A)",
+    "zh": "关；合上",
+    "example": "Er schließt das Fenster.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "die Antwort",
+    "zh": "回答",
+    "example": "Die Antwort ist richtig.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Antworten"
+  },
+  {
+    "de": "antworten (+D)",
+    "zh": "回答",
+    "example": "Er antwortet dem Lehrer.",
+    "image": "",
+    "hint": "动词 + Dativ"
+  },
+  {
+    "de": "der Satz",
+    "zh": "句子",
+    "example": "Der Satz ist lang.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Sätze"
+  },
+  {
+    "de": "falsch",
+    "zh": "错误的",
+    "example": "Die Antwort ist falsch.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "aber",
+    "zh": "但是；不过",
+    "example": "Ich komme, aber später.",
+    "image": "",
+    "hint": "连词"
+  },
+  {
+    "de": "er",
+    "zh": "他",
+    "example": "Er ist Student.",
+    "image": "",
+    "hint": "人称代词"
+  },
+  {
+    "de": "die Sprache",
+    "zh": "语言",
+    "example": "Welche Sprache lernst du?",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Sprachen"
+  },
+  {
+    "de": "die Wissenschaft",
+    "zh": "科学",
+    "example": "Die Wissenschaft ist wichtig.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Wissenschaften"
+  },
+  {
+    "de": "später",
+    "zh": "以后；稍后",
+    "example": "Wir sprechen später weiter.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "der Arbeiter",
+    "zh": "工人",
+    "example": "Der Arbeiter arbeitet im Werk.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Arbeiter"
+  },
+  {
+    "de": "Vielen Dank!",
+    "zh": "多谢！非常感谢！",
+    "example": "Vielen Dank für Ihre Hilfe!",
+    "image": "",
+    "hint": "致谢用语"
+  },
+  {
+    "de": "am Telefon",
+    "zh": "在电话里",
+    "example": "Er spricht am Telefon.",
+    "image": "",
+    "hint": "固定搭配"
+  },
+  {
+    "de": "wann",
+    "zh": "什么时候",
+    "example": "Wann beginnt der Kurs?",
+    "image": "",
+    "hint": "疑问词"
+  },
+  {
+    "de": "nach +Dat.",
+    "zh": "向；到；在……之后",
+    "example": "Wir fahren nach Heidelberg.",
+    "image": "",
+    "hint": "介词 + Dativ"
+  },
+  {
+    "de": "nach Nanjing kommen",
+    "zh": "来南京",
+    "example": "Er kommt nach Nanjing.",
+    "image": "",
+    "hint": "固定表达"
+  },
+  {
+    "de": "zu +Dat.",
+    "zh": "到；向；给",
+    "example": "Ich gehe zu meinem Freund.",
+    "image": "",
+    "hint": "介词 + Dativ"
+  },
+  {
+    "de": "die Computertechnik",
+    "zh": "计算机技术",
+    "example": "Sie studiert Computertechnik.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "schnell",
+    "zh": "快的",
+    "example": "Der Zug ist schnell.",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "üben (+A)",
+    "zh": "练习",
+    "example": "Wir üben die Aussprache.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "das Wörterbuch",
+    "zh": "字典；词典",
+    "example": "Ich schaue im Wörterbuch nach.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Wörterbücher"
+  },
+  {
+    "de": "der Koffer",
+    "zh": "箱子",
+    "example": "Der Koffer ist schwer.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Koffer"
+  },
+  {
+    "de": "der Ball",
+    "zh": "球",
+    "example": "Der Junge spielt mit dem Ball.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Bälle"
+  },
+  {
+    "de": "das Baby",
+    "zh": "婴儿",
+    "example": "Das Baby schläft.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Babys"
+  },
+  {
+    "de": "Ludwigshafen",
+    "zh": "路德维希港",
+    "example": "Er arbeitet in Ludwigshafen.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Heidelberg",
+    "zh": "海德堡",
+    "example": "Heidelberg ist sehr schön.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Mannheim",
+    "zh": "曼海姆",
+    "example": "Sie studiert in Mannheim.",
+    "image": "",
+    "hint": "Stadt"
+  }
+]

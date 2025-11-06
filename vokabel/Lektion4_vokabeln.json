@@ -1,0 +1,359 @@
+[
+  {
+    "de": "die Zahl",
+    "zh": "数字",
+    "example": "Die Zahl ist groß.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Zahlen"
+  },
+  {
+    "de": "die Straße",
+    "zh": "街，道, 公路",
+    "example": "Ich wohne in der Straße.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Straßen"
+  },
+  {
+    "de": "die Nummer",
+    "zh": "号码, 编号",
+    "example": "Meine Nummer ist 15.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Nummern"
+  },
+  {
+    "de": "die Hausnummer",
+    "zh": "门牌号码",
+    "example": "Die Hausnummer ist 8.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Hausnummern"
+  },
+  {
+    "de": "die Postleitzahl",
+    "zh": "邮政编码",
+    "example": "Die Postleitzahl ist 10115.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Postleitzahlen"
+  },
+  {
+    "de": "die Stadt",
+    "zh": "城市",
+    "example": "Berlin ist eine Stadt.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Städte"
+  },
+  {
+    "de": "das Telefon",
+    "zh": "电话",
+    "example": "Ich habe ein Telefon.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Telefone"
+  },
+  {
+    "de": "die Telefonnummer",
+    "zh": "电话号码",
+    "example": "Wie ist deine Telefonnummer?",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Telefonnummern"
+  },
+  {
+    "de": "das Handy",
+    "zh": "手机",
+    "example": "Mein Handy ist neu.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Handys"
+  },
+  {
+    "de": "die Handynummer",
+    "zh": "手机号码",
+    "example": "Wie ist deine Handynummer?",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Handynummern"
+  },
+  {
+    "de": "Ihre",
+    "zh": "您的",
+    "example": "Ist das Ihre Adresse?",
+    "image": "",
+    "hint": "物主代词，敬称"
+  },
+  {
+    "de": "die Adresse",
+    "zh": "地址",
+    "example": "Meine Adresse ist Goethestraße 5.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Adressen"
+  },
+  {
+    "de": "nehmen +A",
+    "zh": "拿, 取",
+    "example": "Nehmen Sie bitte Platz!",
+    "image": "",
+    "hint": "动词, 不规则"
+  },
+  {
+    "de": "der Platz",
+    "zh": "广场; 座位",
+    "example": "Der Platz ist frei.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Plätze"
+  },
+  {
+    "de": "wo",
+    "zh": "哪里, 在什么地方",
+    "example": "Wo wohnst du?",
+    "image": "",
+    "hint": "疑问副词"
+  },
+  {
+    "de": "wohnen",
+    "zh": "居住",
+    "example": "Ich wohne in Köln.",
+    "image": "",
+    "hint": "动词 + Dativ"
+  },
+  {
+    "de": "jetzt",
+    "zh": "现在",
+    "example": "Ich bin jetzt zu Hause.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "in",
+    "zh": "在……里",
+    "example": "Er wohnt in Berlin.",
+    "image": "",
+    "hint": "介词 + Dativ/Akkusativ"
+  },
+  {
+    "de": "Lauter bitte!",
+    "zh": "请大声点！",
+    "example": "Lauter bitte!",
+    "image": "",
+    "hint": "课堂用语"
+  },
+  {
+    "de": "die Universität",
+    "zh": "大学",
+    "example": "Die Universität ist groß.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Universitäten"
+  },
+  {
+    "de": "haben +A",
+    "zh": "有",
+    "example": "Ich habe ein Buch.",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "sein(e)",
+    "zh": "他的",
+    "example": "Das ist sein Buch.",
+    "image": "",
+    "hint": "物主代词"
+  },
+  {
+    "de": "ihr(e)",
+    "zh": "她的",
+    "example": "Das ist ihre Tasche.",
+    "image": "",
+    "hint": "物主代词"
+  },
+  {
+    "de": "langsam",
+    "zh": "慢的",
+    "example": "Er spricht langsam.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "natürlich",
+    "zh": "当然",
+    "example": "Natürlich komme ich!",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "noch",
+    "zh": "还, 仍然",
+    "example": "Er ist noch hier.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "einmal",
+    "zh": "一次",
+    "example": "Ich war einmal in Wien.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "Noch einmal bitte!",
+    "zh": "请再来一次！",
+    "example": "Noch einmal bitte!",
+    "image": "",
+    "hint": "课堂用语"
+  },
+  {
+    "de": "die Firma",
+    "zh": "公司",
+    "example": "Er arbeitet in einer Firma.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Firmen"
+  },
+  {
+    "de": "die Hochschule",
+    "zh": "高等学校",
+    "example": "Die Hochschule ist modern.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Hochschulen"
+  },
+  {
+    "de": "das Land",
+    "zh": "国家",
+    "example": "Das Land ist groß.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Länder"
+  },
+  {
+    "de": "der Hut",
+    "zh": "帽子",
+    "example": "Der Hut ist schön.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Hüte"
+  },
+  {
+    "de": "die Ecke",
+    "zh": "角落",
+    "example": "Die Lampe steht in der Ecke.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Ecken"
+  },
+  {
+    "de": "Max",
+    "zh": "马克斯（男名）",
+    "example": "Er heißt Max.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Hannelore",
+    "zh": "汉内洛蕾（女名）",
+    "example": "Sie heißt Hannelore.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Gerhard",
+    "zh": "格尔哈德（男名）",
+    "example": "Er heißt Gerhard.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Bernd",
+    "zh": "贝恩德（男名）",
+    "example": "Er heißt Bernd.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Katharina",
+    "zh": "卡塔琳娜（女名）",
+    "example": "Sie heißt Katharina.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Else",
+    "zh": "埃尔泽（女名）",
+    "example": "Sie heißt Else.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Müller",
+    "zh": "米勒（姓氏）",
+    "example": "Er heißt Müller.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Schmidt",
+    "zh": "施密特（姓氏）",
+    "example": "Er heißt Schmidt.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Kramer",
+    "zh": "克拉默（姓氏）",
+    "example": "Er heißt Kramer.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Fischer",
+    "zh": "菲舍尔（姓氏）",
+    "example": "Er heißt Fischer.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Quant",
+    "zh": "宽特（姓氏）",
+    "example": "Er heißt Quant.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Wien",
+    "zh": "维也纳",
+    "example": "Wien ist die Hauptstadt von Österreich.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Neustadt",
+    "zh": "新城（地名）",
+    "example": "Er wohnt in Neustadt.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Bergheim",
+    "zh": "贝格海姆（地名）",
+    "example": "Bergheim ist klein.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Mittenwald",
+    "zh": "米滕瓦尔德（地名）",
+    "example": "Mittenwald ist schön.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Burghausen",
+    "zh": "布尔豪森（地名）",
+    "example": "Burghausen ist alt.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Feldkirchen",
+    "zh": "费尔德基兴（地名）",
+    "example": "Er wohnt in Feldkirchen.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Düsseldorf",
+    "zh": "杜塞尔多夫",
+    "example": "Düsseldorf liegt am Rhein.",
+    "image": "",
+    "hint": "Stadt"
+  }
+]

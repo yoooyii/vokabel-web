@@ -1,0 +1,534 @@
+[
+  {
+    "de": "das Lernen",
+    "zh": "学习",
+    "example": "Lernen macht mit einer guten Methode mehr Spaß.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "die Gruppe",
+    "zh": "小组；班",
+    "example": "Wir arbeiten in einer Gruppe von vier Personen.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Gruppen"
+  },
+  {
+    "de": "wichtig",
+    "zh": "重要的",
+    "example": "Das ist für die Prüfung sehr wichtig.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "das Fach",
+    "zh": "学科；专业",
+    "example": "Mein Lieblingsfach ist Deutsch.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Fächer"
+  },
+  {
+    "de": "der Sinn",
+    "zh": "意义；含义",
+    "example": "Ich verstehe den Sinn des Satzes.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "bauen (+A)",
+    "zh": "建造；搭建",
+    "example": "Wir bauen zusammen eine Wortliste.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "bekannt (+D/ für)",
+    "zh": "为……所熟知；有名的",
+    "example": "Er ist mir bekannt und für gute Tipps bekannt.",
+    "image": "",
+    "hint": "形容词 +Dativ / für +Akk."
+  },
+  {
+    "de": "das Bekannte",
+    "zh": "熟悉的东西",
+    "example": "Das Bekannte lernt man schneller.",
+    "image": "",
+    "hint": "名词, 中性（名词化形容词）"
+  },
+  {
+    "de": "das Gedächtnis",
+    "zh": "记忆力",
+    "example": "Mit Karteikarten trainiere ich mein Gedächtnis.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Gedächtnisse"
+  },
+  {
+    "de": "die Übersetzung",
+    "zh": "翻译",
+    "example": "Die Übersetzung hilft am Anfang.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Übersetzungen"
+  },
+  {
+    "de": "behalten (+A)",
+    "zh": "记住；保留",
+    "example": "Behalte die neuen Wörter im Kopf!",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "die Methode",
+    "zh": "方法",
+    "example": "Welche Methode findest du besser?",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Methoden"
+  },
+  {
+    "de": "die Lernmethode",
+    "zh": "学习方法",
+    "example": "Meine Lernmethode ist jeden Tag 20 Minuten.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Lernmethoden"
+  },
+  {
+    "de": "das Alphabet",
+    "zh": "字母表；字母顺序",
+    "example": "Wir wiederholen heute das Alphabet.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Alphabete"
+  },
+  {
+    "de": "täglich",
+    "zh": "每天的；每日",
+    "example": "Ich wiederhole täglich die Vokabeln.",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "der Tipp",
+    "zh": "建议；提示",
+    "example": "Hast du einen Tipp zum Lernen?",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Tipps"
+  },
+  {
+    "de": "die Wortgruppe",
+    "zh": "词组；词群",
+    "example": "Ordne die Wörter in Wortgruppen.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Wortgruppen"
+  },
+  {
+    "de": "allein",
+    "zh": "单独；一个人",
+    "example": "Ich lerne nicht gern allein.",
+    "image": "",
+    "hint": "副词/形容词"
+  },
+  {
+    "de": "besser",
+    "zh": "更好",
+    "example": "Mit Partner lernt man besser.",
+    "image": "",
+    "hint": "比较级（gut 的比较级）"
+  },
+  {
+    "de": "leicht",
+    "zh": "容易的；轻的",
+    "example": "Die Übung ist leicht.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "intelligent",
+    "zh": "聪明的",
+    "example": "Sie ist sehr intelligent und fleißig.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "unintelligent",
+    "zh": "不聪明的",
+    "example": "Das war eine unintelligente Entscheidung.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "vielleicht",
+    "zh": "也许，可能",
+    "example": "Vielleicht treffen wir uns morgen.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "kennen (+A)",
+    "zh": "认识；了解",
+    "example": "Kennst du dieses Wort?",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "die Bedeutung",
+    "zh": "意义；含义",
+    "example": "Was ist die Bedeutung dieses Ausdrucks?",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Bedeutungen"
+  },
+  {
+    "de": "die Busfahrkarte",
+    "zh": "公交车票",
+    "example": "Ich kaufe eine Busfahrkarte am Automaten.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Busfahrkarten"
+  },
+  {
+    "de": "denken (+an A)",
+    "zh": "想到；想念",
+    "example": "Denkst du an die Hausaufgabe?",
+    "image": "",
+    "hint": "动词 + an +Akk."
+  },
+  {
+    "de": "dabei",
+    "zh": "在旁边；此外；（表示并列）",
+    "example": "Ich lerne und dabei höre ich Musik.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "auf/schreiben (+A)",
+    "zh": "写下；记下",
+    "example": "Schreib die neuen Wörter auf!",
+    "image": "",
+    "hint": "可分动词 +Akk."
+  },
+  {
+    "de": "ordnen (+A)",
+    "zh": "整理；归类",
+    "example": "Ordne die Sätze nach der Zeit.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "der Wortschatz",
+    "zh": "词汇；词汇量",
+    "example": "Dein Wortschatz ist schon groß.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "nach (+Dat.)",
+    "zh": "根据；按照；往……去",
+    "example": "Ordne die Wörter nach Themen.",
+    "image": "",
+    "hint": "介词 +Dativ"
+  },
+  {
+    "de": "bilden (+A)",
+    "zh": "形成；造（句/词）",
+    "example": "Bilde Sätze mit diesen Wörtern.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "die Lernkartei",
+    "zh": "学习卡片（索引）",
+    "example": "Ich lege eine Lernkartei für Verben an.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Lernkarteien"
+  },
+  {
+    "de": "der Karteikasten",
+    "zh": "卡片箱",
+    "example": "Die Karten liegen im Karteikasten.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Karteikästen"
+  },
+  {
+    "de": "die Karteikarte",
+    "zh": "索引卡；学习卡片",
+    "example": "Auf der Karteikarte steht die Übersetzung.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Karteikarten"
+  },
+  {
+    "de": "brauchen (+A)",
+    "zh": "需要",
+    "example": "Ich brauche heute nur zwei Karten.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "kaufen (+A)",
+    "zh": "买",
+    "example": "Ich kaufe einen neuen Karteikasten.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "die Vorderseite",
+    "zh": "正面",
+    "example": "Auf der Vorderseite steht das deutsche Wort.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Vorderseiten"
+  },
+  {
+    "de": "die Rückseite",
+    "zh": "反面；背面",
+    "example": "Auf der Rückseite steht die Übersetzung.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Rückseiten"
+  },
+  {
+    "de": "ohne (+Akk.)",
+    "zh": "没有；无",
+    "example": "Ohne Wörterbuch verstehe ich es nicht.",
+    "image": "",
+    "hint": "介词 +Akk."
+  },
+  {
+    "de": "können",
+    "zh": "能够；会",
+    "example": "Ich kann heute nicht telefonieren.",
+    "image": "",
+    "hint": "情态动词"
+  },
+  {
+    "de": "der Fehler",
+    "zh": "错误",
+    "example": "Fehler sind beim Lernen normal.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Fehler"
+  },
+  {
+    "de": "wieder",
+    "zh": "又；再一次",
+    "example": "Bitte lies den Text noch einmal wieder.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "stecken (+A/+Dir.)",
+    "zh": "把……插入；塞入",
+    "example": "Steck die Karte in den Kasten.",
+    "image": "",
+    "hint": "动词 +A/+方向"
+  },
+  {
+    "de": "wirklich",
+    "zh": "真的；确实",
+    "example": "Das ist wirklich eine gute Idee.",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "prima",
+    "zh": "棒极了；很好的",
+    "example": "Dein Referat war prima!",
+    "image": "",
+    "hint": "口语形容词/副词"
+  },
+  {
+    "de": "die Arbeit",
+    "zh": "劳动；工作",
+    "example": "Ich suche eine Arbeit an der Uni.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Arbeiten"
+  },
+  {
+    "de": "die Arbeiterin",
+    "zh": "女工；女劳动者",
+    "example": "Die Arbeiterinnen beginnen um sechs.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Arbeiterinnen"
+  },
+  {
+    "de": "die Arbeitszeit",
+    "zh": "工作时间；劳动时间",
+    "example": "Meine Arbeitszeit ist flexibel.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Arbeitszeiten"
+  },
+  {
+    "de": "chinesisch/englisch/italienisch/französisch/spanisch/europäisch/amerikanisch",
+    "zh": "中文/英语/意大利语/法语/西班牙语/欧洲的/美国的",
+    "example": "Wir sprechen im Kurs deutsch, aber manchmal englisch.",
+    "image": "",
+    "hint": "形容词/语言名（作形容词用）"
+  },
+  {
+    "de": "telefonieren (+mit)",
+    "zh": "通电话",
+    "example": "Ich telefoniere mit meiner Mutter.",
+    "image": "",
+    "hint": "动词 +mit +Dativ"
+  },
+  {
+    "de": "telefonisch",
+    "zh": "通过电话的；电话的",
+    "example": "Wir bestätigen den Termin telefonisch.",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "der Beginn",
+    "zh": "开始；开端",
+    "example": "Der Beginn des Kurses ist um neun.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Unterrichtsbeginn",
+    "zh": "开课；开始上课",
+    "example": "Der Unterrichtsbeginn ist sehr pünktlich.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "enden (+mit)",
+    "zh": "结束；告终",
+    "example": "Der Film endet mit einer Frage.",
+    "image": "",
+    "hint": "动词 +mit +Dativ"
+  },
+  {
+    "de": "die Gitarre",
+    "zh": "吉他",
+    "example": "Er spielt jeden Abend Gitarre.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Gitarren"
+  },
+  {
+    "de": "der Markt",
+    "zh": "市场；集市",
+    "example": "Auf dem Markt ist es heute laut.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Märkte"
+  },
+  {
+    "de": "der Supermarkt",
+    "zh": "超市",
+    "example": "Ich kaufe Obst im Supermarkt.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Supermärkte"
+  },
+  {
+    "de": "der Fernseher",
+    "zh": "电视机",
+    "example": "Der neue Fernseher ist sehr groß.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "Gute Nacht!",
+    "zh": "晚安！",
+    "example": "Gute Nacht und schlaf gut!",
+    "image": "",
+    "hint": "常用寒暄语"
+  },
+  {
+    "de": "hören (+A)",
+    "zh": "听；听见",
+    "example": "Ich höre gern Podcasts.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "die Sprachwissenschaft",
+    "zh": "语言学",
+    "example": "Er studiert Sprachwissenschaft an der Uni.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Sprachwissenschaften"
+  },
+  {
+    "de": "das Labor",
+    "zh": "实验室",
+    "example": "Wir machen die Übung im Labor.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Labors/Labore"
+  },
+  {
+    "de": "das Sprachlabor",
+    "zh": "语言实验室",
+    "example": "Im Sprachlabor üben wir die Aussprache.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Sprachlabors/Sprachlabore"
+  },
+  {
+    "de": "die Tageszeit",
+    "zh": "时段；一天中的时间",
+    "example": "Morgens ist meine beste Tageszeit zum Lernen.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Tageszeiten"
+  },
+  {
+    "de": "der Wochentag",
+    "zh": "工作日；一周中的某天",
+    "example": "Welcher Wochentag ist heute?",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Wochentage"
+  },
+  {
+    "de": "das Verb",
+    "zh": "动词",
+    "example": "Heute lernen wir zehn neue Verben.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Verben"
+  },
+  {
+    "de": "genau",
+    "zh": "准确的；确切地",
+    "example": "Bitte gib die genaue Seite an.",
+    "image": "",
+    "hint": "形容词/副词"
+  },
+  {
+    "de": "bei (+Dat.)",
+    "zh": "在……处；在……人那里",
+    "example": "Ich wohne bei meinen Eltern.",
+    "image": "",
+    "hint": "介词 +Dativ"
+  },
+  {
+    "de": "die Information",
+    "zh": "信息；资料",
+    "example": "Mehr Informationen findest du online.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Informationen"
+  },
+  {
+    "de": "gleich",
+    "zh": "立刻，马上",
+    "example": "Ich komme gleich zurück.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "müde",
+    "zh": "累的；疲倦的",
+    "example": "Nach der Arbeit bin ich müde.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "der Hunger",
+    "zh": "饥饿",
+    "example": "Ich habe Hunger. Gehen wir essen?",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Fernsehfilm",
+    "zh": "电视（影）片",
+    "example": "Heute Abend läuft ein interessanter Fernsehfilm.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Fernsehfilme"
+  },
+  {
+    "de": "an/sehen (+A) (sich +D)",
+    "zh": "观看；看",
+    "example": "Wir sehen uns den neuen Film an.",
+    "image": "",
+    "hint": "可分动词 +Akk.; 也可用反身结构"
+  }
+]

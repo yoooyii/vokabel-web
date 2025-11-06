@@ -1,0 +1,716 @@
+[
+  {
+    "de": "essen (+A)",
+    "zh": "吃",
+    "example": "Wir essen heute sehr spät zu Abend.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "das Brötchen",
+    "zh": "小面包",
+    "example": "Zum Frühstück esse ich ein Brötchen mit Butter.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Brötchen"
+  },
+  {
+    "de": "die Butter",
+    "zh": "黄油",
+    "example": "Sie streicht Butter auf das Brot.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "das Mineralwasser",
+    "zh": "矿泉水",
+    "example": "Zum Essen trinke ich Mineralwasser.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "der Orangensaft",
+    "zh": "橙汁",
+    "example": "Ich bestelle einen Orangensaft.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Orangensäfte"
+  },
+  {
+    "de": "das Müsli",
+    "zh": "混合麦片",
+    "example": "Müsli mit Milch ist gesund.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "die Serviette",
+    "zh": "餐巾",
+    "example": "Gib mir bitte eine Serviette.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Servietten"
+  },
+  {
+    "de": "das Geschirr",
+    "zh": "餐具（盛食物用的器皿）",
+    "example": "Das Geschirr steht in der Küche.",
+    "image": "",
+    "hint": "名词, 中性（集合名词）"
+  },
+  {
+    "de": "das Besteck",
+    "zh": "餐具（刀叉勺）",
+    "example": "Im Restaurant liegt das Besteck rechts und links vom Teller.",
+    "image": "",
+    "hint": "名词, 中性（集合名词）"
+  },
+  {
+    "de": "das Messer",
+    "zh": "刀",
+    "example": "Schneide die Tomaten mit dem Messer.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Messer"
+  },
+  {
+    "de": "die Gabel",
+    "zh": "叉子",
+    "example": "Er isst den Salat mit der Gabel.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Gabeln"
+  },
+  {
+    "de": "der Löffel",
+    "zh": "勺子",
+    "example": "Für die Suppe brauche ich einen Löffel.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Löffel"
+  },
+  {
+    "de": "die Essstäbchen",
+    "zh": "筷子",
+    "example": "In dem asiatischen Restaurant isst man mit Essstäbchen.",
+    "image": "",
+    "hint": "名词, 复数"
+  },
+  {
+    "de": "die Schale",
+    "zh": "碗",
+    "example": "Die Suppe ist in einer Schale.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Schalen"
+  },
+  {
+    "de": "das Schälchen",
+    "zh": "小碗",
+    "example": "Das Dessert kommt in kleinen Schälchen.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Schälchen"
+  },
+  {
+    "de": "der Mantou",
+    "zh": "馒头",
+    "example": "Zum Frühstück gibt es Mantou.",
+    "image": "",
+    "hint": "外来词, 阳性"
+  },
+  {
+    "de": "die Baozi",
+    "zh": "包子",
+    "example": "In China isst man oft Baozi zum Frühstück.",
+    "image": "",
+    "hint": "外来词, 复数用法常见"
+  },
+  {
+    "de": "der Reisbrei",
+    "zh": "米粥",
+    "example": "Kranke essen gern warmen Reisbrei.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "das Salzgemüse",
+    "zh": "咸菜（酸菜）",
+    "example": "Reisbrei mit Salzgemüse schmeckt mild.",
+    "image": "",
+    "hint": "名词, 中性; 借词表达"
+  },
+  {
+    "de": "das Problem",
+    "zh": "问题",
+    "example": "Wir haben ein Problem mit dem Mittagessen.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Probleme"
+  },
+  {
+    "de": "die Liebe",
+    "zh": "爱",
+    "example": "Liebe geht auch durch den Magen.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "der Magen",
+    "zh": "胃",
+    "example": "Ich habe heute Magenprobleme.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "das Frühstück",
+    "zh": "早餐",
+    "example": "Frühstück ist meine liebste Mahlzeit.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "frühstücken",
+    "zh": "吃早饭",
+    "example": "Wir frühstücken um sieben.",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "mittagessen / zu Mittag essen",
+    "zh": "吃午饭",
+    "example": "Ich esse um zwölf Uhr zu Mittag.",
+    "image": "",
+    "hint": "不分离/固定搭配"
+  },
+  {
+    "de": "eben",
+    "zh": "正是；恰恰",
+    "example": "Das ist eben mein Problem.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "nichts",
+    "zh": "什么也没有",
+    "example": "Zum Frühstück esse ich manchmal nichts.",
+    "image": "",
+    "hint": "代词"
+  },
+  {
+    "de": "rauchen (+A)",
+    "zh": "吸烟",
+    "example": "Er raucht nach dem Essen eine Zigarette.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "die Zigarette",
+    "zh": "香烟",
+    "example": "Zigaretten sind ungesund und teuer.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "gesund / ungesund",
+    "zh": "健康的 / 不健康的",
+    "example": "Gemüse ist gesund, zu viel Fett ist ungesund.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "wollen",
+    "zh": "愿意，要",
+    "example": "Ich will heute selbst kochen.",
+    "image": "",
+    "hint": "情态动词"
+  },
+  {
+    "de": "die Medizinstudentin",
+    "zh": "医科女学生",
+    "example": "Die Medizinstudentin erklärt die Diät.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "der Prinz",
+    "zh": "王子",
+    "example": "Der Prinz isst gern Süßes.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Mittag",
+    "zh": "中午",
+    "example": "Gegen Mittag habe ich Hunger.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Bürger",
+    "zh": "公民",
+    "example": "Als Bürger achtet man auf die Gesundheit.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Bettler",
+    "zh": "乞丐",
+    "example": "Der Bettler bittet um ein Brot.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "das Wurstbrot",
+    "zh": "夹香肠面包",
+    "example": "Ich nehme ein Wurstbrot mit.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "das Käsebrot",
+    "zh": "夹乳酪面包",
+    "example": "Zum Abend esse ich ein Käsebrot.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "der/das Joghurt",
+    "zh": "酸奶",
+    "example": "Zum Frühstück esse ich Joghurt mit Obst.",
+    "image": "",
+    "hint": "名词, 阳性/中性"
+  },
+  {
+    "de": "satt",
+    "zh": "吃饱的",
+    "example": "Nach der Suppe bin ich satt.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "die Hauptmahlzeit",
+    "zh": "正餐",
+    "example": "Die Hauptmahlzeit ist am Abend.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "warm",
+    "zh": "热的",
+    "example": "Ich esse mittags gern etwas Warmes.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "das Abendessen",
+    "zh": "晚餐",
+    "example": "Zum Abendessen gibt es Reis und Gemüse.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "mit/gehen",
+    "zh": "同去，同行",
+    "example": "Kommst du mit ins Restaurant?",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "sollen",
+    "zh": "应该",
+    "example": "Du sollst mehr Wasser trinken.",
+    "image": "",
+    "hint": "情态动词"
+  },
+  {
+    "de": "schmecken (+D)",
+    "zh": "有味道；好吃",
+    "example": "Die Suppe schmeckt mir gut.",
+    "image": "",
+    "hint": "动词 +Dativ"
+  },
+  {
+    "de": "am besten",
+    "zh": "最好",
+    "example": "Am besten essen wir heute leicht.",
+    "image": "",
+    "hint": "副词最高级"
+  },
+  {
+    "de": "normal",
+    "zh": "正常的；平常的",
+    "example": "Ich stehe zur normalen Zeit auf.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "zusammen/stellen (+A)",
+    "zh": "制定，编制",
+    "example": "Sie stellt einen Speiseplan zusammen.",
+    "image": "",
+    "hint": "可分动词 +Akk."
+  },
+  {
+    "de": "aus/sehen +Adj.",
+    "zh": "显得，看上去",
+    "example": "Der Salat sieht lecker aus.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "die Bedienung",
+    "zh": "服务员；服务",
+    "example": "Die Bedienung bringt die Getränke.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "die Bohne",
+    "zh": "豆",
+    "example": "Ich koche Bohnen mit Fleisch.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "der Eintopf",
+    "zh": "一锅菜，杂烩",
+    "example": "Im Winter esse ich gern Eintopf.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Bohneneintopf",
+    "zh": "杂豆一锅煮",
+    "example": "Heute gibt es Bohneneintopf.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Fisch",
+    "zh": "鱼",
+    "example": "Der Fisch ist frisch gefangen.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "das Filet",
+    "zh": "里脊；无骨切片",
+    "example": "Ich nehme ein Filet vom Rind.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "das Fischfilet",
+    "zh": "鱼片",
+    "example": "Das Fischfilet ist knusprig.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "die Suppe",
+    "zh": "汤",
+    "example": "Eine Suppe vorweg, bitte.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "die Tomate",
+    "zh": "西红柿",
+    "example": "Tomaten sind heute im Angebot.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "das Schwein",
+    "zh": "猪；猪肉",
+    "example": "Sie isst kein Schwein.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "der Braten",
+    "zh": "烤肉",
+    "example": "Der Braten braucht noch zehn Minuten.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Schweinebraten",
+    "zh": "烤猪肉",
+    "example": "Schweinebraten ist sehr beliebt.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Salat",
+    "zh": "色拉",
+    "example": "Zum Hauptgericht esse ich Salat.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "das Gericht",
+    "zh": "菜肴；一道菜",
+    "example": "Welches Gericht ist vegetarisch?",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "der/die Nächste",
+    "zh": "下一位",
+    "example": "Der Nächste bitte!",
+    "image": "",
+    "hint": "名词化形容词"
+  },
+  {
+    "de": "frei",
+    "zh": "空的；自由的",
+    "example": "Ist der Platz am Fenster frei?",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "Guten Appetit! / gleichfalls",
+    "zh": "请用餐！/同乐",
+    "example": "–Guten Appetit! –Danke, gleichfalls!",
+    "image": "",
+    "hint": "固定寒暄"
+  },
+  {
+    "de": "ausgezeichnet",
+    "zh": "极好的",
+    "example": "Die Suppe schmeckt ausgezeichnet.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "ein/laden (+A)",
+    "zh": "邀请",
+    "example": "Ich lade dich zum Essen ein.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "süß / sauer",
+    "zh": "甜 / 酸",
+    "example": "Die Soße ist süß‑sauer.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "der Apfelkuchen",
+    "zh": "苹果蛋糕",
+    "example": "Zum Kaffee esse ich Apfelkuchen.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "die Vorspeise / das Hauptgericht / die Nachspeise",
+    "zh": "前菜 / 主菜 / 甜点",
+    "example": "Als Vorspeise Suppe, dann Hauptgericht, zum Schluss Nachspeise.",
+    "image": "",
+    "hint": "菜单结构"
+  },
+  {
+    "de": "das Restaurant",
+    "zh": "餐馆",
+    "example": "Wir treffen uns im Restaurant.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "der Gast",
+    "zh": "客人",
+    "example": "Viele Gäste warten auf die Rechnung.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Ober / die Kellnerin",
+    "zh": "男服务员 / 女服务员",
+    "example": "Der Ober bringt die Speisekarte.",
+    "image": "",
+    "hint": "名词"
+  },
+  {
+    "de": "die Speisekarte",
+    "zh": "菜单",
+    "example": "Können wir die Speisekarte sehen?",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "empfehlen",
+    "zh": "推荐",
+    "example": "Was empfehlen Sie heute?",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "der Rotwein / der Weißwein",
+    "zh": "红葡萄酒 / 白葡萄酒",
+    "example": "Zum Fisch passt Weißwein, zum Steak Rotwein.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "Zum Wohl! / Prost!",
+    "zh": "干杯！",
+    "example": "Zum Wohl! Auf einen schönen Abend!",
+    "image": "",
+    "hint": "祝酒语"
+  },
+  {
+    "de": "bringen / sofort",
+    "zh": "拿来；立刻",
+    "example": "Bringen Sie uns bitte sofort zwei Wasser.",
+    "image": "",
+    "hint": "动词/副词"
+  },
+  {
+    "de": "der Eisbecher",
+    "zh": "（一杯）冰激凌",
+    "example": "Ich nehme einen Eisbecher mit Vanille.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "die Rechnung / Stimmt so.",
+    "zh": "账单 / 不用找",
+    "example": "Hier sind 20 Euro – stimmt so.",
+    "image": "",
+    "hint": "结账用语"
+  },
+  {
+    "de": "das Trinkgeld",
+    "zh": "小费",
+    "example": "Wir geben zehn Prozent Trinkgeld.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "die Bar / der Becher",
+    "zh": "酒吧 / 无柄杯",
+    "example": "Wir gehen in die Bar und trinken einen Becher Bier.",
+    "image": "",
+    "hint": "名词"
+  },
+  {
+    "de": "die Beijing‑Ente / die Jiaozi (Pl.)",
+    "zh": "北京烤鸭 / 饺子",
+    "example": "Als Vorspeise nehmen wir Jiaozi, später Beijing‑Ente.",
+    "image": "",
+    "hint": "菜名"
+  },
+  {
+    "de": "Schweinefleisch süß‑sauer",
+    "zh": "糖醋里脊",
+    "example": "Schweinefleisch süß‑sauer ist hier sehr bekannt.",
+    "image": "",
+    "hint": "菜名"
+  },
+  {
+    "de": "rot / weiß / schwarz",
+    "zh": "红 / 白 / 黑",
+    "example": "Der Wein ist rot, das Tischtuch ist weiß, die Jacke ist schwarz.",
+    "image": "",
+    "hint": "颜色词"
+  },
+  {
+    "de": "der/die Deutsche (wie Adj.)",
+    "zh": "德国人",
+    "example": "Viele Deutsche essen abends Brotzeit.",
+    "image": "",
+    "hint": "名词化形容词"
+  },
+  {
+    "de": "die Pizza",
+    "zh": "披萨",
+    "example": "Wir teilen uns eine Pizza.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "der Termin",
+    "zh": "日期，预约",
+    "example": "Ich habe um vier einen Termin.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "bestellen (+A)",
+    "zh": "订购，点菜",
+    "example": "Er bestellt die Suppe und ein Steak.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "schwimmen",
+    "zh": "游泳",
+    "example": "Nach dem Essen gehen wir schwimmen.",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "der Hamburger",
+    "zh": "汉堡",
+    "example": "Zum Mittag esse ich einen Hamburger.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "ein bisschen",
+    "zh": "一点儿",
+    "example": "Ich nehme nur ein bisschen Zucker.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "ab/holen",
+    "zh": "接，取",
+    "example": "Ich hole die Bestellung ab.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "zurück/kommen",
+    "zh": "回来",
+    "example": "Er kommt gleich zurück.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "los/gehen",
+    "zh": "开始，动身",
+    "example": "Wir gehen jetzt los.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "ab/fahren",
+    "zh": "开出，发车",
+    "example": "Der Zug fährt um acht ab.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "mit/bringen (+A +D)",
+    "zh": "带来，赠送",
+    "example": "Ich bringe dir Brot mit.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "verkaufen (+A)",
+    "zh": "卖",
+    "example": "Die Bäckerei verkauft frisches Brot.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "auf/machen",
+    "zh": "打开；开门",
+    "example": "Die Bar macht um elf auf.",
+    "image": "",
+    "hint": "可分动词"
+  },
+  {
+    "de": "vor/lesen (+A)",
+    "zh": "朗读",
+    "example": "Die Kellnerin liest die Tageskarte vor.",
+    "image": "",
+    "hint": "可分动词"
+  }
+]

@@ -1,0 +1,331 @@
+[
+  {
+    "de": "Guten Morgen!",
+    "zh": "早上好！您好！",
+    "example": "Guten Morgen!",
+    "image": "",
+    "hint": "问候语"
+  },
+  {
+    "de": "der Morgen",
+    "zh": "早晨",
+    "example": "Der Morgen ist kalt.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "Guten Abend!",
+    "zh": "晚上好！您好！",
+    "example": "Guten Abend!",
+    "image": "",
+    "hint": "问候语"
+  },
+  {
+    "de": "der Abend",
+    "zh": "晚上",
+    "example": "Der Abend ist ruhig.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Abende"
+  },
+  {
+    "de": "Wie geht’s?",
+    "zh": "你好吗？你(身体)怎么样？",
+    "example": "Wie geht’s?",
+    "image": "",
+    "hint": "常用问句"
+  },
+  {
+    "de": "Wie geht es Ihnen?",
+    "zh": "您好吗？您(身体)怎么样？",
+    "example": "Wie geht es Ihnen?",
+    "image": "",
+    "hint": "敬称问句"
+  },
+  {
+    "de": "wie",
+    "zh": "怎样；如何",
+    "example": "Wie heißt du?",
+    "image": "",
+    "hint": "疑问词"
+  },
+  {
+    "de": "sehr",
+    "zh": "很，非常",
+    "example": "Sehr gut!",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "Und Ihnen?",
+    "zh": "您呢？",
+    "example": "Und Ihnen?",
+    "image": "",
+    "hint": "接话用语，敬称"
+  },
+  {
+    "de": "Und dir?",
+    "zh": "你呢？",
+    "example": "Und dir?",
+    "image": "",
+    "hint": "接话用语，非敬称"
+  },
+  {
+    "de": "auch",
+    "zh": "也；同样",
+    "example": "Ich komme auch.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "ganz",
+    "zh": "完全；十分；相当",
+    "example": "Das ist ganz gut.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "ganz gut",
+    "zh": "挺好；还好",
+    "example": "Mir geht’s ganz gut.",
+    "image": "",
+    "hint": "固定搭配"
+  },
+  {
+    "de": "auf Wiedersehen",
+    "zh": "再见",
+    "example": "Auf Wiedersehen!",
+    "image": "",
+    "hint": "告别用语"
+  },
+  {
+    "de": "Wie geht es dir?",
+    "zh": "你怎么样？",
+    "example": "Wie geht es dir?",
+    "image": "",
+    "hint": "常用问句"
+  },
+  {
+    "de": "nicht",
+    "zh": "不；否定词",
+    "example": "Ich bin nicht müde.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "schlecht",
+    "zh": "坏的；不好的",
+    "example": "Das Wetter ist schlecht.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "nicht schlecht",
+    "zh": "不错；还行",
+    "example": "Nicht schlecht!",
+    "image": "",
+    "hint": "固定表达"
+  },
+  {
+    "de": "Es geht so.",
+    "zh": "还好；还不错；马马虎虎。",
+    "example": "Es geht so.",
+    "image": "",
+    "hint": "口语表达"
+  },
+  {
+    "de": "es geht",
+    "zh": "还行；还好；还可以",
+    "example": "Heute geht es.",
+    "image": "",
+    "hint": "固定表达"
+  },
+  {
+    "de": "so",
+    "zh": "这样，如此",
+    "example": "So ist es.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "na",
+    "zh": "好吧；那么；那就",
+    "example": "Na gut.",
+    "image": "",
+    "hint": "语气词"
+  },
+  {
+    "de": "Alles Gute!",
+    "zh": "（祝你）一切顺利！",
+    "example": "Alles Gute!",
+    "image": "",
+    "hint": "祝福语"
+  },
+  {
+    "de": "die Verzeihung",
+    "zh": "原谅；宽恕",
+    "example": "Ich bitte um Verzeihung.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "Verzeihung!",
+    "zh": "请问；劳驾；对不起！",
+    "example": "Verzeihung! Wo ist die Toilette?",
+    "image": "",
+    "hint": "礼貌用语"
+  },
+  {
+    "de": "ja",
+    "zh": "是；对",
+    "example": "Ja, gern.",
+    "image": "",
+    "hint": "副词/答语"
+  },
+  {
+    "de": "nein",
+    "zh": "不；不是",
+    "example": "Nein, danke.",
+    "image": "",
+    "hint": "副词/答语"
+  },
+  {
+    "de": "die Entschuldigung",
+    "zh": "原谅；抱歉",
+    "example": "Ich sage Entschuldigung.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Entschuldigungen"
+  },
+  {
+    "de": "Oh, Entschuldigung!",
+    "zh": "哦，对不起！请原谅！",
+    "example": "Oh, Entschuldigung!",
+    "image": "",
+    "hint": "道歉用语"
+  },
+  {
+    "de": "Heißt das … ?",
+    "zh": "这叫……吗？",
+    "example": "Heißt das „Haus“?",
+    "image": "",
+    "hint": "课堂用语"
+  },
+  {
+    "de": "Ist das … ?",
+    "zh": "这是……吗？",
+    "example": "Ist das ein Bus?",
+    "image": "",
+    "hint": "问句模板"
+  },
+  {
+    "de": "Sind Sie … ?",
+    "zh": "您是……？",
+    "example": "Sind Sie Herr Li?",
+    "image": "",
+    "hint": "敬称问句"
+  },
+  {
+    "de": "der Bleistift",
+    "zh": "铅笔",
+    "example": "Der Bleistift ist neu.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Bleistifte"
+  },
+  {
+    "de": "der Kugelschreiber",
+    "zh": "圆珠笔",
+    "example": "Der Kugelschreiber schreibt gut.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Kugelschreiber"
+  },
+  {
+    "de": "das Haus",
+    "zh": "房屋",
+    "example": "Das Haus ist groß.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Häuser"
+  },
+  {
+    "de": "der Bus",
+    "zh": "公共汽车；大轿车",
+    "example": "Der Bus kommt.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Busse"
+  },
+  {
+    "de": "das Auto",
+    "zh": "汽车",
+    "example": "Das Auto ist schnell.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Autos"
+  },
+  {
+    "de": "das Taxi",
+    "zh": "出租汽车",
+    "example": "Das Taxi ist da.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Taxis"
+  },
+  {
+    "de": "das Foto",
+    "zh": "照片",
+    "example": "Das Foto ist schön.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Fotos"
+  },
+  {
+    "de": "Vera",
+    "zh": "维拉（女名）",
+    "example": "Sie heißt Vera.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Thomas",
+    "zh": "托马斯（男名）",
+    "example": "Er heißt Thomas.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Peter",
+    "zh": "彼得（男名）",
+    "example": "Er heißt Peter.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Jonas",
+    "zh": "约纳斯（男名）",
+    "example": "Er heißt Jonas.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Bauer",
+    "zh": "鲍尔（姓氏）",
+    "example": "Er heißt Bauer.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Holzmann",
+    "zh": "霍尔茨曼（姓氏）",
+    "example": "Sie heißt Holzmann.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Puck",
+    "zh": "普克（姓氏）",
+    "example": "Er heißt Puck.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Bode",
+    "zh": "博德（姓氏）",
+    "example": "Er heißt Bode.",
+    "image": "",
+    "hint": "Familienname"
+  }
+]

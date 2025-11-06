@@ -1,0 +1,870 @@
+[
+  {
+    "de": "Entschuldigung, wo ist die Kasse?",
+    "zh": "打扰一下，收银台在哪里？",
+    "example": "Entschuldigung, wo ist die Kasse bitte?",
+    "image": "",
+    "hint": "问路/购物用语"
+  },
+  {
+    "de": "Ich schaue nur.",
+    "zh": "我只是看看。",
+    "example": "Danke, ich schaue nur.",
+    "image": "",
+    "hint": "购物场景"
+  },
+  {
+    "de": "Haben Sie das in Größe M?",
+    "zh": "这件有 M 码吗？",
+    "example": "Haben Sie das T‑Shirt in Größe M?",
+    "image": "",
+    "hint": "试衣/尺码"
+  },
+  {
+    "de": "Kann ich das anprobieren?",
+    "zh": "我可以试穿一下吗？",
+    "example": "Kann ich die Jacke anprobieren?",
+    "image": "",
+    "hint": "试衣"
+  },
+  {
+    "de": "Wo sind die Umkleidekabinen?",
+    "zh": "试衣间在哪里？",
+    "example": "Wo sind die Umkleidekabinen, bitte?",
+    "image": "",
+    "hint": "试衣"
+  },
+  {
+    "de": "Das steht dir gut.",
+    "zh": "这件很适合你。",
+    "example": "Die Hose steht dir gut.",
+    "image": "",
+    "hint": "评价穿着"
+  },
+  {
+    "de": "Der Preis ist in Ordnung.",
+    "zh": "这个价格可以。",
+    "example": "Für 25 Euro ist der Preis in Ordnung.",
+    "image": "",
+    "hint": "价格评价"
+  },
+  {
+    "de": "Haben Sie einen Kassenbon?",
+    "zh": "您有收据吗？",
+    "example": "Ich brauche einen Kassenbon für die Erstattung.",
+    "image": "",
+    "hint": "付款/售后"
+  },
+  {
+    "de": "Kann ich mit Karte zahlen?",
+    "zh": "我可以刷卡吗？",
+    "example": "Kann ich hier mit Karte zahlen?",
+    "image": "",
+    "hint": "付款"
+  },
+  {
+    "de": "Wir nehmen nur Bargeld.",
+    "zh": "我们只收现金。",
+    "example": "Tut mir leid, wir nehmen nur Bargeld.",
+    "image": "",
+    "hint": "付款限制"
+  },
+  {
+    "de": "der Verkäufer",
+    "zh": "售货员（男）",
+    "example": "Der Verkäufer hilft mir bei der Größe.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Verkäufer"
+  },
+  {
+    "de": "die Verkäuferin",
+    "zh": "售货员（女）",
+    "example": "Die Verkäuferin ist sehr freundlich.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Verkäuferinnen"
+  },
+  {
+    "de": "der Kunde",
+    "zh": "顾客（男）",
+    "example": "Der Kunde wartet an der Kasse.",
+    "image": "",
+    "hint": "名词, 阳性; 弱变化: des Kunden"
+  },
+  {
+    "de": "die Kundin",
+    "zh": "顾客（女）",
+    "example": "Die Kundin sucht eine blaue Jacke.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Kundinnen"
+  },
+  {
+    "de": "die Kleidung",
+    "zh": "衣服；服装",
+    "example": "Ich kaufe selten Kleidung online.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "die Jacke",
+    "zh": "夹克；外套",
+    "example": "Die Jacke ist mir zu klein.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Jacken"
+  },
+  {
+    "de": "der Mantel",
+    "zh": "大衣",
+    "example": "Im Winter trage ich einen warmen Mantel.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Mäntel"
+  },
+  {
+    "de": "der Pullover",
+    "zh": "套头毛衣",
+    "example": "Der Pullover ist aus Wolle.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Pullover"
+  },
+  {
+    "de": "das Hemd",
+    "zh": "衬衫",
+    "example": "Das Hemd passt gut zu der Hose.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Hemden"
+  },
+  {
+    "de": "die Bluse",
+    "zh": "女式衬衫",
+    "example": "Die Bluse ist kariert.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Blusen"
+  },
+  {
+    "de": "das T‑Shirt",
+    "zh": "T 恤",
+    "example": "Ich nehme das T‑Shirt in Schwarz.",
+    "image": "",
+    "hint": "名词, 中性; 复数: T‑Shirts"
+  },
+  {
+    "de": "die Hose",
+    "zh": "裤子",
+    "example": "Die Hose ist mir zu eng.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Hosen"
+  },
+  {
+    "de": "der Rock",
+    "zh": "裙子",
+    "example": "Der Rock ist zu kurz.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Röcke"
+  },
+  {
+    "de": "das Kleid",
+    "zh": "连衣裙",
+    "example": "Das Kleid gefällt mir sehr.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Kleider"
+  },
+  {
+    "de": "die Schuhe (Pl.)",
+    "zh": "鞋",
+    "example": "Diese Schuhe sind bequem.",
+    "image": "",
+    "hint": "名词, 复数词"
+  },
+  {
+    "de": "die Stiefel (Pl.)",
+    "zh": "靴子",
+    "example": "Die Stiefel sind aus Leder.",
+    "image": "",
+    "hint": "名词, 复数词"
+  },
+  {
+    "de": "die Socken (Pl.)",
+    "zh": "袜子",
+    "example": "Ich brauche neue Socken.",
+    "image": "",
+    "hint": "名词, 复数词"
+  },
+  {
+    "de": "der Schal",
+    "zh": "围巾",
+    "example": "Der Schal ist sehr weich.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Schals"
+  },
+  {
+    "de": "die Mütze",
+    "zh": "便帽；针织帽",
+    "example": "Die Mütze hält warm.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Mützen"
+  },
+  {
+    "de": "der Gürtel",
+    "zh": "皮带；腰带",
+    "example": "Der Gürtel ist zu lang.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Gürtel"
+  },
+  {
+    "de": "die Handschuhe (Pl.)",
+    "zh": "手套",
+    "example": "Im Winter trage ich Handschuhe.",
+    "image": "",
+    "hint": "名词, 复数词"
+  },
+  {
+    "de": "schwarz",
+    "zh": "黑色",
+    "example": "Ich trage gern schwarze Kleidung.",
+    "image": "",
+    "hint": "形容词/颜色"
+  },
+  {
+    "de": "weiß",
+    "zh": "白色",
+    "example": "Das Hemd ist weiß.",
+    "image": "",
+    "hint": "形容词/颜色"
+  },
+  {
+    "de": "rot",
+    "zh": "红色",
+    "example": "Die Jacke ist rot.",
+    "image": "",
+    "hint": "形容词/颜色"
+  },
+  {
+    "de": "blau",
+    "zh": "蓝色",
+    "example": "Die Hose ist dunkelblau.",
+    "image": "",
+    "hint": "形容词/颜色"
+  },
+  {
+    "de": "grün",
+    "zh": "绿色",
+    "example": "Steht dir die grüne Bluse?",
+    "image": "",
+    "hint": "形容词/颜色"
+  },
+  {
+    "de": "gelb",
+    "zh": "黄色",
+    "example": "Gelbe Kleider sind auffällig.",
+    "image": "",
+    "hint": "形容词/颜色"
+  },
+  {
+    "de": "grau",
+    "zh": "灰色",
+    "example": "Der Mantel ist grau.",
+    "image": "",
+    "hint": "形容词/颜色"
+  },
+  {
+    "de": "braun",
+    "zh": "棕色",
+    "example": "Braune Stiefel passen immer.",
+    "image": "",
+    "hint": "形容词/颜色"
+  },
+  {
+    "de": "rosa",
+    "zh": "粉红色",
+    "example": "Sie mag rosa Kleider.",
+    "image": "",
+    "hint": "形容词/颜色"
+  },
+  {
+    "de": "lila",
+    "zh": "紫色",
+    "example": "Die Tasche ist lila.",
+    "image": "",
+    "hint": "形容词/颜色"
+  },
+  {
+    "de": "hell-",
+    "zh": "浅……（前缀）",
+    "example": "Ich nehme das in hellblau.",
+    "image": "",
+    "hint": "颜色前缀"
+  },
+  {
+    "de": "dunkel-",
+    "zh": "深……（前缀）",
+    "example": "Die Hose ist dunkelgrün.",
+    "image": "",
+    "hint": "颜色前缀"
+  },
+  {
+    "de": "bunt",
+    "zh": "彩色的；花哨的",
+    "example": "Der Schal ist sehr bunt.",
+    "image": "",
+    "hint": "形容词/颜色"
+  },
+  {
+    "de": "kariert",
+    "zh": "格子的",
+    "example": "Der Rock ist kariert.",
+    "image": "",
+    "hint": "形容词/图案"
+  },
+  {
+    "de": "gestreift",
+    "zh": "条纹的",
+    "example": "Ich suche ein gestreiftes Hemd.",
+    "image": "",
+    "hint": "形容词/图案"
+  },
+  {
+    "de": "gepunktet",
+    "zh": "波点的",
+    "example": "Die Bluse ist gepunktet.",
+    "image": "",
+    "hint": "形容词/图案"
+  },
+  {
+    "de": "aus Baumwolle",
+    "zh": "棉质的",
+    "example": "Das T‑Shirt ist aus Baumwolle.",
+    "image": "",
+    "hint": "材质表达"
+  },
+  {
+    "de": "aus Wolle",
+    "zh": "羊毛的",
+    "example": "Der Pullover ist aus Wolle.",
+    "image": "",
+    "hint": "材质表达"
+  },
+  {
+    "de": "aus Leder",
+    "zh": "皮制的",
+    "example": "Die Tasche ist aus Leder.",
+    "image": "",
+    "hint": "材质表达"
+  },
+  {
+    "de": "aus Seide",
+    "zh": "丝绸的",
+    "example": "Der Schal ist aus Seide.",
+    "image": "",
+    "hint": "材质表达"
+  },
+  {
+    "de": "die Größe",
+    "zh": "尺码；大小",
+    "example": "Welche Größe tragen Sie?",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Größen"
+  },
+  {
+    "de": "passen (+Dat.)",
+    "zh": "合身；合适",
+    "example": "Die Schuhe passen mir nicht.",
+    "image": "",
+    "hint": "动词 +Dativ"
+  },
+  {
+    "de": "zu groß / zu klein",
+    "zh": "太大 / 太小",
+    "example": "Das ist mir zu klein.",
+    "image": "",
+    "hint": "形容词短语"
+  },
+  {
+    "de": "zu lang / zu kurz",
+    "zh": "太长 / 太短",
+    "example": "Der Rock ist zu kurz.",
+    "image": "",
+    "hint": "形容词短语"
+  },
+  {
+    "de": "zu weit / zu eng",
+    "zh": "太宽 / 太紧",
+    "example": "Die Hose ist zu eng.",
+    "image": "",
+    "hint": "形容词短语"
+  },
+  {
+    "de": "kaufen (+A)",
+    "zh": "买",
+    "example": "Ich kaufe Obst und Gemüse.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "verkaufen (+A)",
+    "zh": "卖",
+    "example": "Der Laden verkauft nur Bio-Produkte.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "bezahlen (+A)",
+    "zh": "付款；付钱",
+    "example": "Ich bezahle die Jacke an der Kasse.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "kosten",
+    "zh": "花费；价格为",
+    "example": "Wie viel kostet das?",
+    "image": "",
+    "hint": "不及物/无人称"
+  },
+  {
+    "de": "reduzieren (+A)",
+    "zh": "降价；减少",
+    "example": "Die Preise sind um 20% reduziert.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "tauschen (+A)",
+    "zh": "更换；交换",
+    "example": "Kann ich die Größe tauschen?",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "zurückgeben (+A)",
+    "zh": "退回；退货",
+    "example": "Ich möchte das zurückgeben.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "gefallen (+Dat.)",
+    "zh": "喜欢；合意",
+    "example": "Gefällt dir das Kleid?",
+    "image": "",
+    "hint": "动词 +Dativ"
+  },
+  {
+    "de": "stehen (+Dat.) (Kleidung)",
+    "zh": "（衣服）适合",
+    "example": "Der Mantel steht dir gut.",
+    "image": "",
+    "hint": "动词 +Dativ"
+  },
+  {
+    "de": "probieren (+A)",
+    "zh": "试；尝试",
+    "example": "Probier mal diese Schuhe an.",
+    "image": "",
+    "hint": "动词 +Akk.; anprobieren(可分)"
+  },
+  {
+    "de": "an/probieren (+A)",
+    "zh": "试穿",
+    "example": "Ich möchte die Hose anprobieren.",
+    "image": "",
+    "hint": "可分动词 +Akk."
+  },
+  {
+    "de": "mitnehmen (+A)",
+    "zh": "带走；随身带",
+    "example": "Ich nehme den Beutel mit.",
+    "image": "",
+    "hint": "可分动词 +Akk."
+  },
+  {
+    "de": "brauchen (+A)",
+    "zh": "需要",
+    "example": "Ich brauche eine größere Größe.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "suchen (+A)",
+    "zh": "寻找",
+    "example": "Ich suche ein warmes Kleid.",
+    "image": "",
+    "hint": "动词 +Akk."
+  },
+  {
+    "de": "zeigen (+Dat+Akk)",
+    "zh": "给……看；展示",
+    "example": "Können Sie mir die Quittung zeigen?",
+    "image": "",
+    "hint": "动词 +Dativ +Akk."
+  },
+  {
+    "de": "helfen (+Dat.)",
+    "zh": "帮助",
+    "example": "Die Verkäuferin hilft mir gern.",
+    "image": "",
+    "hint": "动词 +Dativ"
+  },
+  {
+    "de": "der Preis",
+    "zh": "价格",
+    "example": "Der Preis ist zu hoch.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Preise"
+  },
+  {
+    "de": "billig / günstig",
+    "zh": "便宜 / 合算",
+    "example": "Das ist heute sehr günstig.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "teuer",
+    "zh": "贵",
+    "example": "Die Tasche ist sehr teuer.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "die Reduzierung / der Rabatt",
+    "zh": "降价 / 折扣",
+    "example": "Gibt es heute Rabatt?",
+    "image": "",
+    "hint": "名词, 阴性/阳性"
+  },
+  {
+    "de": "der Kassenbon / die Quittung",
+    "zh": "小票 / 发票",
+    "example": "Bewahren Sie den Kassenbon bitte auf.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "die Garantie",
+    "zh": "保修；保证",
+    "example": "Das Gerät hat zwei Jahre Garantie.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Garantien"
+  },
+  {
+    "de": "bar zahlen",
+    "zh": "现金支付",
+    "example": "Ich zahle bar.",
+    "image": "",
+    "hint": "固定搭配"
+  },
+  {
+    "de": "mit Karte zahlen",
+    "zh": "刷卡支付",
+    "example": "Ich zahle mit Karte.",
+    "image": "",
+    "hint": "固定搭配"
+  },
+  {
+    "de": "das Kaufhaus",
+    "zh": "百货商店",
+    "example": "Im Kaufhaus gibt es alles.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Kaufhäuser"
+  },
+  {
+    "de": "das Geschäft / der Laden",
+    "zh": "商店",
+    "example": "Das Geschäft macht um 9 Uhr auf.",
+    "image": "",
+    "hint": "名词, 中性/阳性"
+  },
+  {
+    "de": "die Boutique",
+    "zh": "精品服装店",
+    "example": "Die Boutique hat neue Kollektion.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Boutiquen"
+  },
+  {
+    "de": "die Bäckerei",
+    "zh": "面包店",
+    "example": "Ich hole Brot in der Bäckerei.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Bäckereien"
+  },
+  {
+    "de": "die Metzgerei",
+    "zh": "肉店",
+    "example": "In der Metzgerei gibt es frisches Fleisch.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Metzgereien"
+  },
+  {
+    "de": "der Supermarkt",
+    "zh": "超市",
+    "example": "Der Supermarkt schließt um 20 Uhr.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Supermärkte"
+  },
+  {
+    "de": "der Wochenmarkt",
+    "zh": "周市；集市",
+    "example": "Am Samstag ist Wochenmarkt.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Wochenmärkte"
+  },
+  {
+    "de": "öffnen / schließen",
+    "zh": "开门 / 关门",
+    "example": "Das Geschäft öffnet um 9 und schließt um 19 Uhr.",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "die Öffnungszeit",
+    "zh": "营业时间",
+    "example": "Die Öffnungszeiten stehen an der Tür.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Öffnungszeiten"
+  },
+  {
+    "de": "das Brot",
+    "zh": "面包",
+    "example": "Ich kaufe ein frisches Brot.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Brote"
+  },
+  {
+    "de": "die Brötchen (Pl.)",
+    "zh": "小面包",
+    "example": "Sechs Brötchen, bitte.",
+    "image": "",
+    "hint": "名词, 复数词"
+  },
+  {
+    "de": "der Käse",
+    "zh": "奶酪",
+    "example": "Ich esse Brot mit Käse.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "die Wurst",
+    "zh": "香肠；腊肉",
+    "example": "Die Wurst ist frisch.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Würste"
+  },
+  {
+    "de": "das Fleisch",
+    "zh": "肉",
+    "example": "Ich kaufe heute kein Fleisch.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "das Gemüse",
+    "zh": "蔬菜",
+    "example": "Gemüse ist gesund.",
+    "image": "",
+    "hint": "名词, 中性（不可数）"
+  },
+  {
+    "de": "das Obst",
+    "zh": "水果",
+    "example": "Obst ist heute im Angebot.",
+    "image": "",
+    "hint": "名词, 中性（不可数）"
+  },
+  {
+    "de": "der Apfel",
+    "zh": "苹果",
+    "example": "Ein Kilo Äpfel, bitte.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Äpfel"
+  },
+  {
+    "de": "die Banane",
+    "zh": "香蕉",
+    "example": "Bananen sind billig.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Bananen"
+  },
+  {
+    "de": "die Tomate",
+    "zh": "番茄",
+    "example": "Ich brauche Tomaten für den Salat.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Tomaten"
+  },
+  {
+    "de": "die Zwiebel",
+    "zh": "洋葱",
+    "example": "Eine Zwiebel, bitte.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Zwiebeln"
+  },
+  {
+    "de": "die Gurke",
+    "zh": "黄瓜",
+    "example": "Die Gurke ist frisch.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Gurken"
+  },
+  {
+    "de": "die Milch",
+    "zh": "牛奶",
+    "example": "Ich trinke morgens Milch.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "der Saft",
+    "zh": "果汁",
+    "example": "Orangensaft ist mein Lieblingsgetränk.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Säfte"
+  },
+  {
+    "de": "das Wasser",
+    "zh": "水",
+    "example": "Ich nehme eine Flasche Wasser.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "die Limonade",
+    "zh": "汽水；柠檬水",
+    "example": "Kinder trinken gern Limonade.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Limonaden"
+  },
+  {
+    "de": "ein Kilo (kg)",
+    "zh": "一公斤",
+    "example": "Ich brauche ein Kilo Reis.",
+    "image": "",
+    "hint": "量词"
+  },
+  {
+    "de": "ein Liter (l)",
+    "zh": "一升",
+    "example": "Ein Liter Milch, bitte.",
+    "image": "",
+    "hint": "量词"
+  },
+  {
+    "de": "100 Gramm (g)",
+    "zh": "100 克",
+    "example": "100 Gramm Käse, bitte.",
+    "image": "",
+    "hint": "量词"
+  },
+  {
+    "de": "die Flasche",
+    "zh": "瓶",
+    "example": "Eine Flasche Saft kostet 1,50 Euro.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Flaschen"
+  },
+  {
+    "de": "die Dose",
+    "zh": "听；罐头",
+    "example": "Ich kaufe eine Dose Cola.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Dosen"
+  },
+  {
+    "de": "die Packung",
+    "zh": "包；盒",
+    "example": "Eine Packung Nudeln, bitte.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Packungen"
+  },
+  {
+    "de": "das Stück",
+    "zh": "块；片；件",
+    "example": "Ein Stück Kuchen, bitte.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Stücke"
+  },
+  {
+    "de": "die Schweiz",
+    "zh": "瑞士",
+    "example": "Die Schweiz ist nicht in der EU.",
+    "image": "",
+    "hint": "Ländername"
+  },
+  {
+    "de": "der Schweizer Franken (CHF)",
+    "zh": "瑞士法郎",
+    "example": "In der Schweiz bezahlt man mit Franken.",
+    "image": "",
+    "hint": "Währung"
+  },
+  {
+    "de": "Zürich",
+    "zh": "苏黎世",
+    "example": "Zürich ist eine große Stadt in der Schweiz.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "Genf",
+    "zh": "日内瓦",
+    "example": "Genf liegt am Genfersee.",
+    "image": "",
+    "hint": "Stadt"
+  },
+  {
+    "de": "dieser/diese/dieses",
+    "zh": "这个/这位/这件",
+    "example": "Ich nehme dieses Kleid.",
+    "image": "",
+    "hint": "指示代词"
+  },
+  {
+    "de": "welcher/welche/welches",
+    "zh": "哪个",
+    "example": "Welche Größe brauchen Sie?",
+    "image": "",
+    "hint": "疑问代词"
+  },
+  {
+    "de": "möchten",
+    "zh": "想要（虚拟式）",
+    "example": "Ich möchte die Jacke anprobieren.",
+    "image": "",
+    "hint": "情态类动词"
+  },
+  {
+    "de": "gern / lieber / am liebsten",
+    "zh": "喜欢；更喜欢；最喜欢",
+    "example": "Ich trinke lieber Tee.",
+    "image": "",
+    "hint": "程度副词"
+  },
+  {
+    "de": "zu + Dat.",
+    "zh": "到；向；给（与格）",
+    "example": "Ich gehe zur Kasse.",
+    "image": "",
+    "hint": "介词 +Dativ"
+  },
+  {
+    "de": "für + Akk.",
+    "zh": "为了；给（宾格）",
+    "example": "Das ist ein Geschenk für dich.",
+    "image": "",
+    "hint": "介词 +Akk."
+  },
+  {
+    "de": "ohne + Akk.",
+    "zh": "没有；无（宾格）",
+    "example": "Ohne Quittung kein Umtausch.",
+    "image": "",
+    "hint": "介词 +Akk."
+  },
+  {
+    "de": "mit + Dat.",
+    "zh": "和；带有（与格）",
+    "example": "Mit Rabatt kostet es 20 Euro.",
+    "image": "",
+    "hint": "介词 +Dativ"
+  }
+]

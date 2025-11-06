@@ -1,0 +1,534 @@
+[
+  {
+    "de": "die Freiheit",
+    "zh": "自由",
+    "example": "In der Uni haben wir viel Freiheit.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Freiheiten"
+  },
+  {
+    "de": "suchen (+A)",
+    "zh": "找；寻找",
+    "example": "Ich suche meinen Schlüssel.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "finden (+A)",
+    "zh": "找到",
+    "example": "Ich finde die Mensakarte nicht.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "die Mensakarte",
+    "zh": "饭卡；餐卡",
+    "example": "Ohne Mensakarte kann ich nicht zahlen.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Mensakarten"
+  },
+  {
+    "de": "der Ausweis",
+    "zh": "证件",
+    "example": "Bitte zeigen Sie Ihren Ausweis.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Ausweise"
+  },
+  {
+    "de": "der Studentenausweis",
+    "zh": "学生证",
+    "example": "Mit dem Studentenausweis ist der Eintritt billiger.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Studentenausweise"
+  },
+  {
+    "de": "der Schlüssel",
+    "zh": "钥匙",
+    "example": "Der Schlüssel liegt auf dem Tisch.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Schlüssel"
+  },
+  {
+    "de": "der Rekorder",
+    "zh": "收录机",
+    "example": "Der Rekorder ist alt, aber funktioniert.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "die Kassette",
+    "zh": "磁带",
+    "example": "Ich habe die Musik auf Kassette.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Kassetten"
+  },
+  {
+    "de": "der Kassettenrekorder",
+    "zh": "盒式收录机",
+    "example": "Der Kassettenrekorder steht im Schrank.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Stift",
+    "zh": "笔；铅笔",
+    "example": "Hast du einen Stift für mich?",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Stifte"
+  },
+  {
+    "de": "schreiben (+A/über +A)",
+    "zh": "写；写关于……",
+    "example": "Ich schreibe einen Text über die Uni.",
+    "image": "",
+    "hint": "动词 +A / über +A"
+  },
+  {
+    "de": "das Blatt",
+    "zh": "纸张；页",
+    "example": "Bitte schreibt auf ein Blatt Papier.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Blätter"
+  },
+  {
+    "de": "zu (Partikel)",
+    "zh": "（小品词）太，过于",
+    "example": "Das ist zu laut.",
+    "image": "",
+    "hint": "小品词/副词"
+  },
+  {
+    "de": "dumm",
+    "zh": "笨的；愚蠢的",
+    "example": "Das war eine dumme Idee.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "Ruhe bitte!",
+    "zh": "请安静！",
+    "example": "Ruhe bitte, wir schreiben jetzt.",
+    "image": "",
+    "hint": "课堂用语"
+  },
+  {
+    "de": "die Ruhe",
+    "zh": "安静；宁静",
+    "example": "Ich lerne gern in Ruhe.",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "besuchen (+A)",
+    "zh": "拜访；参观；上（课）",
+    "example": "Ich besuche heute meine Freundin.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "leider",
+    "zh": "可惜；遗憾",
+    "example": "Ich kann leider nicht kommen.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "eure",
+    "zh": "你们的",
+    "example": "Ist das eure Wohnung?",
+    "image": "",
+    "hint": "物主代词"
+  },
+  {
+    "de": "der Besuch",
+    "zh": "访问；拜访",
+    "example": "Mein Besuch dauert nur eine Stunde.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Besuche"
+  },
+  {
+    "de": "der Freund",
+    "zh": "朋友（男）",
+    "example": "Er ist ein guter Freund von mir.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Freunde"
+  },
+  {
+    "de": "die Freundin",
+    "zh": "女朋友；女性朋友",
+    "example": "Sie ist meine beste Freundin.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Freundinnen"
+  },
+  {
+    "de": "der Tee",
+    "zh": "茶",
+    "example": "Zum Frühstück trinke ich Tee.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "der Kaffee",
+    "zh": "咖啡",
+    "example": "Er trinkt morgens Kaffee.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "die Milch",
+    "zh": "牛奶",
+    "example": "Möchtest du Milch im Kaffee?",
+    "image": "",
+    "hint": "名词, 阴性"
+  },
+  {
+    "de": "die Kanne",
+    "zh": "壶；罐",
+    "example": "Die Kanne ist voll mit Tee.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Kannen"
+  },
+  {
+    "de": "komisch",
+    "zh": "奇怪的；可笑的",
+    "example": "Das riecht komisch.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "die Katze",
+    "zh": "猫",
+    "example": "Die Katze schläft auf dem Sofa.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Katzen"
+  },
+  {
+    "de": "der Schreibtisch",
+    "zh": "写字台；书桌",
+    "example": "Mein Laptop steht auf dem Schreibtisch.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Schreibtische"
+  },
+  {
+    "de": "die Wohnung",
+    "zh": "住宅；住房",
+    "example": "Die Wohnung ist klein, aber gemütlich.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Wohnungen"
+  },
+  {
+    "de": "reinkommen",
+    "zh": "进来",
+    "example": "Komm rein, die Tür ist offen.",
+    "image": "",
+    "hint": "可分动词（rein + kommen）"
+  },
+  {
+    "de": "die Pause",
+    "zh": "休息；间歇",
+    "example": "Wir machen um zehn eine Pause.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Pausen"
+  },
+  {
+    "de": "(eine) Pause machen",
+    "zh": "休息一下",
+    "example": "Lass uns kurz eine Pause machen.",
+    "image": "",
+    "hint": "固定表达"
+  },
+  {
+    "de": "trinken (+A)",
+    "zh": "喝",
+    "example": "Sie trinkt eine Tasse Tee.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "die Tasse",
+    "zh": "杯（有把手）",
+    "example": "Ich brauche noch eine Tasse.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Tassen"
+  },
+  {
+    "de": "gern",
+    "zh": "喜欢地；乐意",
+    "example": "Ich esse gern Kuchen.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "es",
+    "zh": "它；这（形式主语）",
+    "example": "Es regnet heute.",
+    "image": "",
+    "hint": "代词"
+  },
+  {
+    "de": "ruhig",
+    "zh": "安静的；平静的",
+    "example": "Bleib bitte ruhig.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "der Teller",
+    "zh": "盘子；碟子",
+    "example": "Die Teller sind sauber.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Teller"
+  },
+  {
+    "de": "der Aschenbecher",
+    "zh": "烟灰缸",
+    "example": "Der Aschenbecher steht auf dem Balkon.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Aschenbecher"
+  },
+  {
+    "de": "das Ei",
+    "zh": "鸡蛋",
+    "example": "Zum Frühstück esse ich ein Ei.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Eier"
+  },
+  {
+    "de": "der Tennisball",
+    "zh": "网球（球）",
+    "example": "Der Tennisball liegt unter dem Tisch.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Tennisbälle"
+  },
+  {
+    "de": "das Feuerzeug",
+    "zh": "打火机",
+    "example": "Hast du ein Feuerzeug?",
+    "image": "",
+    "hint": "名词, 中性; 复数: Feuerzeuge"
+  },
+  {
+    "de": "probieren (+A)",
+    "zh": "尝；品尝；试试",
+    "example": "Probier mal den Kuchen!",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "mal (Partikel)",
+    "zh": "（语气词，缓和语气）",
+    "example": "Komm mal her, bitte.",
+    "image": "",
+    "hint": "小品词"
+  },
+  {
+    "de": "der Zucker",
+    "zh": "糖",
+    "example": "Ich nehme keinen Zucker im Tee.",
+    "image": "",
+    "hint": "名词, 阳性"
+  },
+  {
+    "de": "das Salz",
+    "zh": "盐",
+    "example": "Gib mir bitte das Salz.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "mit +Dat.",
+    "zh": "与；和；带有；用……",
+    "example": "Ich trinke Kaffee mit Milch.",
+    "image": "",
+    "hint": "介词 + Dativ"
+  },
+  {
+    "de": "die Zeit",
+    "zh": "时间",
+    "example": "Ich habe heute keine Zeit.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Zeiten"
+  },
+  {
+    "de": "mitkommen",
+    "zh": "一起来；同行",
+    "example": "Kommst du mit zur Mensa?",
+    "image": "",
+    "hint": "可分动词（mit + kommen）"
+  },
+  {
+    "de": "stimmen",
+    "zh": "对；正确；相符",
+    "example": "Das stimmt genau.",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "von +Dat.",
+    "zh": "（所属、来源）……的；来自",
+    "example": "Das Buch ist von meinem Freund.",
+    "image": "",
+    "hint": "介词 + Dativ"
+  },
+  {
+    "de": "die Lektion",
+    "zh": "课；课次",
+    "example": "Heute beginnen wir mit Lektion 2.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Lektionen"
+  },
+  {
+    "de": "viel",
+    "zh": "许多",
+    "example": "Es gibt hier viel Arbeit.",
+    "image": "",
+    "hint": "不定量词"
+  },
+  {
+    "de": "heute",
+    "zh": "今天",
+    "example": "Heute ist das Wetter schön.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "der Nachmittag",
+    "zh": "下午",
+    "example": "Am Nachmittag habe ich Sport.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Nachmittage"
+  },
+  {
+    "de": "die Geschwister (Pl.)",
+    "zh": "兄弟姐妹",
+    "example": "Sie hat keine Geschwister.",
+    "image": "",
+    "hint": "名词, 复数词"
+  },
+  {
+    "de": "der Onkel",
+    "zh": "叔叔；舅舅；伯伯；姑父",
+    "example": "Mein Onkel wohnt in Dresden.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Onkel"
+  },
+  {
+    "de": "die Tante",
+    "zh": "姑妈；姨妈；舅妈；伯母",
+    "example": "Meine Tante kocht sehr gut.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Tanten"
+  },
+  {
+    "de": "die Uni (Universität)",
+    "zh": "大学（口语）",
+    "example": "Ich treffe meine Freunde an der Uni.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Unis"
+  },
+  {
+    "de": "gehen (+Dir.)",
+    "zh": "走；去（向某地）",
+    "example": "Wir gehen ins Kino.",
+    "image": "",
+    "hint": "动词 + 方向"
+  },
+  {
+    "de": "der Moment",
+    "zh": "片刻；一会儿",
+    "example": "Einen Moment bitte!",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Momente"
+  },
+  {
+    "de": "Einen Moment bitte!",
+    "zh": "请稍候！",
+    "example": "Einen Moment bitte, ich komme gleich.",
+    "image": "",
+    "hint": "常用表达"
+  },
+  {
+    "de": "holen (+A)",
+    "zh": "取；拿",
+    "example": "Ich hole schnell die Kanne.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "warum",
+    "zh": "为什么",
+    "example": "Warum kommst du so spät?",
+    "image": "",
+    "hint": "疑问词"
+  },
+  {
+    "de": "die Großeltern (Pl.)",
+    "zh": "祖父母；外祖父母",
+    "example": "Am Wochenende besuchen wir die Großeltern.",
+    "image": "",
+    "hint": "名词, 复数词"
+  },
+  {
+    "de": "der Großvater",
+    "zh": "祖父；外祖父",
+    "example": "Mein Großvater liest gern Zeitung.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Großväter"
+  },
+  {
+    "de": "die Großmutter",
+    "zh": "祖母；外祖母",
+    "example": "Meine Großmutter trinkt Tee.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Großmütter"
+  },
+  {
+    "de": "oft",
+    "zh": "经常",
+    "example": "Ich gehe oft spazieren.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "die Hausarbeit",
+    "zh": "家务；家庭作业",
+    "example": "Am Samstag mache ich Hausarbeit.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Hausarbeiten"
+  },
+  {
+    "de": "die Handtasche",
+    "zh": "手袋；手提包",
+    "example": "Die Handtasche ist neu.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Handtaschen"
+  },
+  {
+    "de": "deutsch",
+    "zh": "德国语的；德语的",
+    "example": "Wir sprechen deutsch im Kurs.",
+    "image": "",
+    "hint": "形容词/名词化"
+  },
+  {
+    "de": "in +Dat./Akk.",
+    "zh": "在……里；到……里去",
+    "example": "Ich wohne in Berlin und gehe in die Stadt.",
+    "image": "",
+    "hint": "介词 +Dativ/Akkusativ"
+  },
+  {
+    "de": "beide",
+    "zh": "两个；两者",
+    "example": "Beide Studenten kommen aus China.",
+    "image": "",
+    "hint": "不定代词/数词"
+  },
+  {
+    "de": "Dresden",
+    "zh": "德累斯顿",
+    "example": "Dresden liegt an der Elbe.",
+    "image": "",
+    "hint": "Stadt"
+  }
+]

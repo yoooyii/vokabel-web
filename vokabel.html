@@ -1,0 +1,466 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>德语词卡</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    :root{--card-w: min(720px, 92vw); --card-h: min(420px, 62vh)}
+    .card-3d{perspective: 1000px}
+    .card-inner{position: relative; width: 100%; height: 100%; transition: transform 0.5s; transform-style: preserve-3d}
+    .flipped .card-inner{transform: rotateY(180deg)}
+    .card-face{position: absolute; width: 100%; height: 100%; backface-visibility: hidden}
+    .card-back{transform: rotateY(180deg)}
+    .kbd{border:1px solid #e5e7eb;border-bottom-width:2px;border-radius:.375rem;padding:0.125rem 0.375rem;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+    textarea{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace}
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <div class="max-w-6xl mx-auto p-4 sm:p-6">
+    <header class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-4">
+      <div>
+        <h1 class="text-2xl font-bold">德语词卡（Flip Cards + 简易间隔复习）</h1>
+        <p class="text-sm text-gray-600">前面：德语；背面：中文 + 例句；用浏览器 <code>localStorage</code> 做复习计划。</p>
+      </div>
+      <div class="flex gap-2">
+        <button id="btnReset" class="px-3 py-2 rounded-lg bg-gray-200 hover:bg-gray-300">重置进度</button>
+        <button id="btnExport" class="px-3 py-2 rounded-lg bg-gray-200 hover:bg-gray-300">导出Deck</button>
+        <label class="px-3 py-2 rounded-lg bg-gray-200 hover:bg-gray-300 cursor-pointer">
+          导入Deck
+          <input id="fileImport" type="file" accept=".json,.csv" class="hidden" />
+        </label>
+        <button id="btnOpenEditor" class="px-3 py-2 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700">批量编辑</button>
+        <button id="btnClearAll" class="px-3 py-2 rounded-lg bg-purple-200 text-purple-800 hover:bg-purple-300">清空单词</button>
+
+      </div>
+    </header>
+    <!-- 课次筛选（HTML） ——— NEW -->
+  <label class="text-sm flex items-center gap-2">
+    课次：
+    <select id="lessonSelect" class="px-2 py-1 border rounded">
+      <option value="all">全部</option>
+    </select>
+  </label>
+  <label class="text-sm flex items-center gap-2 ml-4">
+    <input id="chkDue" type="checkbox" class="align-middle" />
+    只看到期
+  </label>
+  
+
+    <!-- 统计条 -->
+    <section id="stats" class="mb-4 text-sm text-gray-700"></section>
+
+    <!-- 词卡区 -->
+    <section class="card-3d w-full flex justify-center">
+      <div id="card" class="w-full" style="max-width: var(--card-w); height: var(--card-h);">
+        <div id="cardWrap" class="card-inner">
+          <div class="card-face card-front bg-white rounded-2xl border shadow flex flex-col overflow-hidden">
+            <div id="frontMedia" class="flex-1 grid place-items-center p-4"></div>
+            <div class="p-4 border-t">
+              <div class="flex items-center justify-between">
+                <div class="text-xs text-gray-500" id="metaFront">—</div>
+                <div class="text-xs text-gray-500">按 <span class="kbd">Space</span> 翻面</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-face card-back bg-white rounded-2xl border shadow flex flex-col overflow-hidden">
+            <div class="flex-1 p-5 overflow-auto">
+              <div class="flex items-center justify-between gap-2">
+                <h2 id="deText" class="text-2xl font-semibold">—</h2>
+                <div class="flex gap-2">
+                  <button id="btnSpeakWord" class="px-3 py-1 rounded-lg bg-indigo-600 text-white">读词</button>
+                  <button id="btnSpeakEx" class="px-3 py-1 rounded-lg bg-indigo-50 text-indigo-700 border border-indigo-200">读例句</button>
+                </div>
+              </div>
+              <p id="zhText" class="mt-2 text-lg">—</p>
+              <p id="exText" class="mt-3 text-gray-700">—</p>
+              <p id="hintText" class="mt-2 text-sm text-gray-500"></p>
+            </div>
+            <div class="p-4 border-t flex items-center justify-between gap-3">
+              <div class="text-xs text-gray-500">下次复习：<span id="nextDue">—</span></div>
+              <div class="flex gap-2">
+                <button id="btnAgain" class="px-4 py-2 rounded-xl bg-rose-50 text-rose-700 border border-rose-200">不熟悉 (J)</button>
+                <button id="btnGood" class="px-4 py-2 rounded-xl bg-emerald-600 text-white">熟悉 (F)</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 底部提示 -->
+    <div class="flex justify-center gap-4 mt-4">
+    <button id="btnPrevPage" class="px-4 py-2 rounded-lg bg-gray-200 hover:bg-gray-300">上一页</button>
+    <button id="btnNextPage" class="px-4 py-2 rounded-lg bg-gray-200 hover:bg-gray-300">下一页</button>
+    </div>
+
+    <footer class="mt-6 text-sm text-gray-600">
+      快捷键：<span class="kbd">Space</span> 翻面，<span class="kbd">F</span> 熟悉，<span class="kbd">J</span> 不熟悉，<span class="kbd">←/→</span> 切换卡片。
+    </footer>
+
+    <!-- 批量编辑器（弹窗） -->
+    <dialog id="editorDlg" class="rounded-xl p-0 w-[min(960px,95vw)]">
+      <div class="p-4 border-b flex items-center justify-between">
+        <h3 class="font-semibold">批量导入/编辑</h3>
+        <button id="btnCloseEditor" class="px-3 py-1 rounded bg-gray-200">关闭</button>
+      </div>
+      <div class="p-4 space-y-3">
+        <details class="p-3 rounded-lg bg-yellow-50 border border-yellow-200">
+          <summary class="cursor-pointer font-medium">使用说明（CSV/JSON）</summary>
+          <div class="mt-2 text-sm leading-6">
+            <p>1）CSV 第一行需为表头：<code>de,zh,example,image,hint</code>（可省略 <code>image,hint</code>）。</p>
+            <p>2）JSON 采用数组形式：<code>[{"de":"…","zh":"…","example":"…","image":"…","hint":"…"}]</code>。</p>
+            <p>3）可从教材 PDF 把 <strong>Vokabel</strong> 抄到 CSV/JSON 后导入；也可后续我帮你写脚本半自动抽取。</p>
+          </div>
+        </details>
+        <textarea id="bulkArea" rows="12" class="w-full p-3 border rounded-lg" placeholder="在此粘贴 CSV 或 JSON"></textarea>
+        <div class="flex items-center justify-between">
+          <div class="text-xs text-gray-500">导入会与当前卡片合并，按德语单词去重。</div>
+          <div class="flex gap-2">
+            <button id="btnImportText" class="px-3 py-2 rounded-lg bg-indigo-600 text-white">导入文本</button>
+            <button id="btnDownloadTemplate" class="px-3 py-2 rounded-lg bg-gray-200">下载CSV模板</button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+  </div>
+
+  <script>
+    // ====== 数据层 ======
+    const STORAGE_KEY = 'de_vocab_deck_v1';
+    const PROGRESS_KEY = 'de_vocab_progress_v1';
+
+    document.getElementById('btnPrevPage').onclick = ()=> next(-1);
+    document.getElementById('btnNextPage').onclick = ()=> next(+1);
+
+    // NEW: 清空全部单词按钮
+    document.getElementById('btnClearAll').onclick = ()=>{
+      if(confirm('确定要清空所有导入的单词以及清除学习进度吗？\\n（不会清空进度备份文件）')){
+        localStorage.removeItem('de_vocab_deck_v1');
+        localStorage.removeItem('de_vocab_progress_v1');
+        location.reload();
+      }
+    };
+
+
+
+    /** 初始示例卡片（请用你的 Vokabel 替换/导入） */
+    const initialCards = [
+      {de: 'Guten Tag', zh: '您好', example: "Guten Tag! Wie geht's?", image: '', hint: '问候'},
+      {de: 'danke', zh: '谢谢', example: 'Danke für deine Hilfe.', image: '', hint: '常用表达'},
+      {de: 'entschuldigen', zh: '抱歉；打扰', example: 'Entschuldigen Sie bitte!', image: '', hint: ''},
+      {de: 'die Universität', zh: '大学', example: 'Er studiert an der Universität.', image: '', hint: '名词，阴性'},
+    ];
+
+    function loadDeck(){
+      const raw = localStorage.getItem(STORAGE_KEY);
+      let deck = raw ? JSON.parse(raw) : initialCards;
+      // 规范化与去重（按 de）
+      const map = new Map();
+      deck.forEach(c=>{ if(!c.de) return; const k=c.de.trim(); if(!map.has(k)) map.set(k, {...c, de:k}); });
+      deck = [...map.values()].map((c,i)=> ({id: i+1, de:c.de, zh:c.zh||'', example:c.example||'', image:c.image||'', hint:c.hint||'',lesson: c.lesson || '未分组'}));
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(deck));
+
+      deck.forEach(c => { if(!('lesson' in c) || !c.lesson) c.lesson = '未分组'; });
+      saveDeck(deck);
+      return deck;
+    }
+
+    function saveDeck(deck){ localStorage.setItem(STORAGE_KEY, JSON.stringify(deck)); }
+
+    function loadProgress(){ return JSON.parse(localStorage.getItem(PROGRESS_KEY)||'{}'); }
+    function saveProgress(p){ localStorage.setItem(PROGRESS_KEY, JSON.stringify(p)); }
+
+    // 进度结构： progress[de] = {streak: number, intervalDays: number, due: timestamp}
+    function getCardProgress(card){
+      const p = progress[card.de] || {streak: 0, intervalDays: 0, due: 0};
+      return p;
+    }
+
+    function schedule(card, grade){
+      // grade: 'good' | 'again'
+      const now = Date.now();
+      let p = getCardProgress(card);
+      if(grade==='good'){
+        p.streak = (p.streak||0)+1;
+        // 简化 SM-2：间隔 = max(1, 2^(streak-1)) 天
+        p.intervalDays = Math.max(1, Math.pow(2, Math.max(0,p.streak-1)));
+        p.due = now + p.intervalDays*24*3600*1000;
+      }else{
+        p.streak = 0; p.intervalDays = 0.5; // 12 小时后再看
+        p.due = now + p.intervalDays*24*3600*1000;
+      }
+      progress[card.de] = p; saveProgress(progress);
+    }
+
+    // ====== 状态与渲染 ======
+    let deck = loadDeck();
+    let progress = loadProgress();
+    let idx = 0; // 当前索引（在 filtered 列表中的位置）
+    let filtered = [];
+
+    const els = {
+      cardWrap: document.getElementById('cardWrap'),
+      frontMedia: document.getElementById('frontMedia'),
+      metaFront: document.getElementById('metaFront'),
+      deText: document.getElementById('deText'),
+      zhText: document.getElementById('zhText'),
+      exText: document.getElementById('exText'),
+      hintText: document.getElementById('hintText'),
+      nextDue: document.getElementById('nextDue'),
+      stats: document.getElementById('stats'),
+      btnGood: document.getElementById('btnGood'),
+      btnAgain: document.getElementById('btnAgain'),
+      btnSpeakWord: document.getElementById('btnSpeakWord'),
+      btnSpeakEx: document.getElementById('btnSpeakEx'),
+      btnReset: document.getElementById('btnReset'),
+      btnExport: document.getElementById('btnExport'),
+      fileImport: document.getElementById('fileImport'),
+      editorDlg: document.getElementById('editorDlg'),
+      btnOpenEditor: document.getElementById('btnOpenEditor'),
+      btnCloseEditor: document.getElementById('btnCloseEditor'),
+      bulkArea: document.getElementById('bulkArea'),
+      btnImportText: document.getElementById('btnImportText'),
+      btnDownloadTemplate: document.getElementById('btnDownloadTemplate'),
+    };
+
+    function fmtDate(ts){ if(!ts) return '—'; const d=new Date(ts); return d.toLocaleString(); }
+    function isDue(card){ const p=getCardProgress(card); return Date.now()>= (p.due||0); }
+
+    // NEW: 根据当前 deck 重建课次下拉选项
+    function rebuildLessonFilter(){
+      const sel = document.getElementById('lessonSelect');
+      if(!sel) return;
+      const set = new Set(deck.map(c => String(c.lesson || '未分组')));
+      const current = sel.value || 'all';
+      sel.innerHTML = '<option value="all">全部</option>' +
+        [...set].sort((a,b)=>a.localeCompare(b,'zh-Hans-CN',{numeric:true}))
+                .map(k => `<option value="${k}">${k}</option>`).join('');
+      // 尝试保留原选择
+      if([...set].includes(current)) sel.value = current; else sel.value = 'all';
+    }
+
+    // CHANGED: 支持课次筛选
+    function applyFilter(){
+      const sel = document.getElementById('lessonSelect');
+      const want = sel ? sel.value : 'all';
+      // 原先的 filtered = deck.slice();
+      filtered = deck.filter(d => want==='all' ? true : String(d.lesson||'未分组')===want);
+      const onlyDue = document.getElementById('chkDue')?.checked;
+      if(onlyDue) filtered = filtered.filter(isDue);
+
+      if(filtered.length===0){
+        // 你的“空数据提示”保留
+      }else{
+        shuffle(filtered); // 如果你原来会打乱顺序，保留
+      }
+      idx = 0;
+      renderCard();
+      renderStats();
+    }
+
+    // NEW: 渲染统计信息
+    function renderStats(){
+      const dueCount = deck.filter(isDue).length;
+      const statsEl = document.getElementById('stats');
+      statsEl.innerHTML =
+        `总数 <b>${deck.length}</b> · 到期 <b>${dueCount}</b> · 当前 <b>${Math.min(idx+1, Math.max(1, filtered.length))}</b> / <b>${filtered.length||0}</b>`;
+    }
+
+
+    // NEW: 课次下拉变更时刷新
+    document.getElementById('lessonSelect')?.addEventListener('change', applyFilter);
+
+
+    function renderCard(){
+      if(filtered.length===0){
+        els.frontMedia.innerHTML = '<div class="text-center text-gray-500">没有卡片可显示。请导入你的 Vokabel。</div>';
+        els.metaFront.textContent = '—';
+        els.deText.textContent = '—';
+        els.zhText.textContent = '—';
+        els.exText.textContent = '—';
+        els.hintText.textContent = '';
+        els.nextDue.textContent = '—';
+        return;
+      }
+      const card = filtered[idx];
+      // front
+      const useImage = !!card.image;
+      if(useImage && card.image){
+        els.frontMedia.innerHTML = `<img src="${card.image}" alt="image" class="max-h-full max-w-full rounded-xl shadow"/>`;
+      }else{
+        els.frontMedia.innerHTML = `<div class="text-4xl sm:text-5xl font-semibold">${card.de}</div>`;
+      }
+      els.metaFront.textContent = `当前：${idx+1}/${filtered.length}`;
+      // back
+      els.deText.textContent = card.de;
+      els.zhText.textContent = card.zh || '—';
+      els.exText.textContent = card.example || '—';
+      els.hintText.textContent = card.hint? ('提示：'+card.hint) : '';
+      els.nextDue.textContent = fmtDate(getCardProgress(card).due);
+    }
+
+    function flip(){ document.getElementById('card').classList.toggle('flipped'); }
+
+    function next(delta){
+      if(filtered.length===0) return;
+      idx = (idx + delta + filtered.length) % filtered.length;
+      renderCard();
+      const wrap = document.getElementById('card');
+      wrap.classList.remove('flipped');
+    }
+
+    function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]] } }
+
+    // ====== 朗读 ======
+    function speak(text){
+      if(!text) return;
+      const u = new SpeechSynthesisUtterance(text);
+      u.rate = 1; u.pitch = 1; u.lang = 'de-DE';
+      speechSynthesis.cancel();
+      speechSynthesis.speak(u);
+    }
+// ====== 事件绑定 ======
+    document.getElementById('card').addEventListener('click', (e)=>{
+      // 仅点击卡面空白处翻面，按钮不触发
+      const tag = e.target.tagName.toLowerCase();
+      if(['button','select','textarea','input','img'].includes(tag)) return;
+      flip();
+    });
+    els.btnSpeakWord.onclick = ()=> speak(filtered[idx]?.de);
+    els.btnSpeakEx.onclick = ()=> speak(filtered[idx]?.example);
+
+    els.btnGood.onclick = ()=>{ const c=filtered[idx]; schedule(c,'good'); next(+1); renderStats(); };
+    els.btnAgain.onclick = ()=>{ const c=filtered[idx]; schedule(c,'again'); next(+1); renderStats(); };
+
+    document.addEventListener('keydown', (e)=>{
+      if(e.code==='Space'){ e.preventDefault(); flip(); }
+      if(e.key==='f' || e.key==='F'){ e.preventDefault(); els.btnGood.click(); }
+      if(e.key==='j' || e.key==='J'){ e.preventDefault(); els.btnAgain.click(); }
+      if(e.key==='ArrowRight'){ next(+1); }
+      if(e.key==='ArrowLeft'){ next(-1); }
+    });
+
+    els.btnReset.onclick = ()=>{
+      if(confirm('确定要清空学习进度吗？')){ progress = {}; saveProgress(progress); applyFilter(); }
+    };
+
+    els.btnExport.onclick = ()=>{
+      const data = { deck, progress };
+      const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'deck_export.json'; a.click();
+    };
+
+    // 文件导入 ——— CHANGED
+    els.fileImport.onchange = async (e)=>{
+      const f = e.target.files?.[0]; if(!f) return;
+      const text = await f.text();
+      const lessonByName = inferLessonFromFilename(f.name);     // NEW: 从文件名推断课次
+      importText(text, lessonByName);                            // NEW: 传给 importText
+    };
+
+
+    // ====== 批量编辑器 ======
+    els.btnOpenEditor.onclick = ()=> els.editorDlg.showModal();
+    els.btnCloseEditor.onclick = ()=> els.editorDlg.close();
+
+    els.btnImportText.onclick = ()=>{
+      importText(els.bulkArea.value.trim());
+    };
+
+    els.btnDownloadTemplate.onclick = ()=>{
+      const csv = 'de,zh,example,image,hint\nGuten Tag,您好,"Guten Tag! Wie geht\'s?",,问候';
+      const blob = new Blob([csv], {type:'text/csv;charset=utf-8'});
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'vokabel_template.csv'; a.click();
+    };
+
+    // 文本导入 ——— CHANGED SIGNATURE
+    function importText(text, defaultLesson){
+      if(!text) return;
+      try{
+        let items = [];
+        if(text.trim().startsWith('[')) items = JSON.parse(text);
+        else items = csvToJson(text); // 你已有的 CSV→JSON 函数
+
+        // NEW: 填充 lesson 字段（不改原文件）
+        const shaped = items.map(x=>({
+          de: (x.de||x.word||x.term||'').trim(),
+          zh: (x.zh||x.cn||x.cn_meaning||x.meaning||'').trim(),
+          example: (x.example||x.examples||x.sentence||'').trim(),
+          hint: (x.hint||x.tag||x.pos||'').trim(),
+          lesson: (x.lesson!=null && String(x.lesson).trim()!=='')
+                  ? String(x.lesson).trim()
+                  : (defaultLesson || '未分组')
+        })).filter(o=>o.de);
+
+        mergeCards(shaped);        // 你现有的“合并去重”函数
+        rebuildLessonFilter();     // NEW: 重建课次下拉
+        applyFilter();             // 保持现有刷新逻辑
+        alert('导入成功，共 '+shaped.length+' 项。');
+        // 关闭弹窗等
+      }catch(err){
+        alert('导入失败：'+err.message);
+      }
+    }
+    // NEW: 从文件名推断课次
+    function inferLessonFromFilename(name){
+      const m = name.match(/lektion\s*(\d+)/i) || name.match(/lesson[_-]?(\d+)/i) || name.match(/\bL(\d+)\b/i);
+      return m ? m[1] : '';  // 找不到就返回空字符串
+    }
+
+
+    function csvToJson(csv){
+      // 非严格 CSV 解析，满足一般逗号+引号场景
+      const lines = csv.split(/\r?\n/).filter(Boolean);
+      if(!lines.length) return [];
+      const header = splitCSVLine(lines[0]);
+      const idxDe = header.indexOf('de');
+      const idxZh = header.indexOf('zh');
+      const idxEx = header.indexOf('example');
+      const idxImg = header.indexOf('image');
+      const idxHint= header.indexOf('hint');
+      const idxLesson = header.indexOf('lesson'); 
+      const arr=[];
+      for(let i=1;i<lines.length;i++){
+        const cols = splitCSVLine(lines[i]);
+        const obj = {de: cols[idxDe]||'', zh: cols[idxZh]||'', example: cols[idxEx]||'', image: cols[idxImg]||'', hint: cols[idxHint]||'', lesson: idxLesson>=0 ? (cols[idxLesson]||'') : ''};
+        if(obj.de) arr.push(obj);
+      }
+      return arr;
+    }
+    function splitCSVLine(line){
+      const out=[]; let cur=''; let inQ=false;
+      for(let i=0;i<line.length;i++){
+        const ch = line[i];
+        if(ch==='"'){
+          if(inQ && line[i+1]==='"'){ cur+='"'; i++; }
+          else inQ=!inQ;
+        }else if(ch===',' && !inQ){ out.push(cur); cur=''; }
+        else{ cur+=ch; }
+      }
+      out.push(cur); return out.map(s=>s.trim());
+    }
+
+    function mergeCards(items){
+      const map = new Map(deck.map(c=>[c.de, c]));
+      items.forEach(it=>{
+        const k = (it.de||'').trim(); if(!k) return;
+        if(map.has(k)){
+          const c = map.get(k);
+          c.zh = it.zh || c.zh; c.example = it.example || c.example; c.image = it.image || c.image; c.hint = it.hint || c.hint; c.lesson = it.lesson || c.lesson || '未分组';
+        }else{
+          map.set(k, {id: 0, de:k, zh: it.zh||'', example: it.example||'', image: it.image||'', hint: it.hint||'', lesson: it.lesson || '未分组'});
+        }
+      });
+      deck = [...map.values()].map((c,i)=>({...c, id:i+1}));
+      saveDeck(deck);
+    }
+
+    // 初次渲染
+    rebuildLessonFilter();  // NEW
+    applyFilter();
+  </script>
+</body>
+</html>

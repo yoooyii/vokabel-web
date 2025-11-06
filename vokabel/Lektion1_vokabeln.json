@@ -1,0 +1,408 @@
+[
+  {
+    "de": "wer",
+    "zh": "谁",
+    "example": "Wer ist das?",
+    "image": "",
+    "hint": "疑问代词"
+  },
+  {
+    "de": "Wer ist das?",
+    "zh": "这是谁？",
+    "example": "Wer ist das?",
+    "image": "",
+    "hint": "常用问句"
+  },
+  {
+    "de": "das",
+    "zh": "这",
+    "example": "Das ist Anna.",
+    "image": "",
+    "hint": "指示代词"
+  },
+  {
+    "de": "Das ist …",
+    "zh": "这是……",
+    "example": "Das ist ein Buch.",
+    "image": "",
+    "hint": "句型"
+  },
+  {
+    "de": "Guten Tag!",
+    "zh": "您好！你好！",
+    "example": "Guten Tag!",
+    "image": "",
+    "hint": "问候语"
+  },
+  {
+    "de": "Tag!",
+    "zh": "你好！",
+    "example": "Tag!",
+    "image": "",
+    "hint": "口语，省略形式"
+  },
+  {
+    "de": "gut",
+    "zh": "好",
+    "example": "Das ist gut.",
+    "image": "",
+    "hint": "形容词"
+  },
+  {
+    "de": "ich",
+    "zh": "我",
+    "example": "Ich bin Uta.",
+    "image": "",
+    "hint": "人称代词"
+  },
+  {
+    "de": "heißen",
+    "zh": "名叫；叫做",
+    "example": "Ich heiße Hans.",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "Ich heiße …",
+    "zh": "我叫……",
+    "example": "Ich heiße Udo.",
+    "image": "",
+    "hint": "句型"
+  },
+  {
+    "de": "Wie bitte?",
+    "zh": "您说什么？",
+    "example": "Wie bitte?",
+    "image": "",
+    "hint": "礼貌用语"
+  },
+  {
+    "de": "Mein Name ist …",
+    "zh": "我的名字是……",
+    "example": "Mein Name ist Gabi.",
+    "image": "",
+    "hint": "句型"
+  },
+  {
+    "de": "mein",
+    "zh": "我的",
+    "example": "Das ist mein Buch.",
+    "image": "",
+    "hint": "物主代词"
+  },
+  {
+    "de": "ich bin …",
+    "zh": "我是……",
+    "example": "Ich bin Anna.",
+    "image": "",
+    "hint": "句型"
+  },
+  {
+    "de": "und",
+    "zh": "和；与",
+    "example": "Hans und Anna.",
+    "image": "",
+    "hint": "连词"
+  },
+  {
+    "de": "Sie",
+    "zh": "您",
+    "example": "Wie heißen Sie?",
+    "image": "",
+    "hint": "敬称"
+  },
+  {
+    "de": "Und Sie?",
+    "zh": "您呢？",
+    "example": "Und Sie?",
+    "image": "",
+    "hint": "接话用语"
+  },
+  {
+    "de": "Und das?",
+    "zh": "这个呢？",
+    "example": "Und das?",
+    "image": "",
+    "hint": "接话用语"
+  },
+  {
+    "de": "Hallo!",
+    "zh": "喂！你好！",
+    "example": "Hallo!",
+    "image": "",
+    "hint": "招呼语"
+  },
+  {
+    "de": "Wie heißt das da auf Deutsch?",
+    "zh": "这用德语怎么说？",
+    "example": "Wie heißt das da auf Deutsch?",
+    "image": "",
+    "hint": "课堂用语"
+  },
+  {
+    "de": "da",
+    "zh": "那儿；这儿（指近处）",
+    "example": "Da ist die Lampe.",
+    "image": "",
+    "hint": "副词/指示"
+  },
+  {
+    "de": "Das heißt …",
+    "zh": "这叫做……",
+    "example": "Das heißt Lampe.",
+    "image": "",
+    "hint": "句型"
+  },
+  {
+    "de": "hier",
+    "zh": "这里",
+    "example": "Hier ist das Heft.",
+    "image": "",
+    "hint": "副词"
+  },
+  {
+    "de": "danke",
+    "zh": "谢谢",
+    "example": "Danke!",
+    "image": "",
+    "hint": "礼貌用语"
+  },
+  {
+    "de": "Ich weiß nicht.",
+    "zh": "我不知道。",
+    "example": "Ich weiß nicht.",
+    "image": "",
+    "hint": "常用句"
+  },
+  {
+    "de": "Was heißt … auf Chinesisch?",
+    "zh": "……汉语怎么说？",
+    "example": "Was heißt „Uhr“ auf Chinesisch?",
+    "image": "",
+    "hint": "课堂用语"
+  },
+  {
+    "de": "(das) Deutsch",
+    "zh": "德语",
+    "example": "auf Deutsch",
+    "image": "",
+    "hint": "名词/语言名"
+  },
+  {
+    "de": "auf Deutsch",
+    "zh": "用德语",
+    "example": "Sagen Sie es auf Deutsch.",
+    "image": "",
+    "hint": "固定搭配"
+  },
+  {
+    "de": "bitte",
+    "zh": "请；不客气",
+    "example": "Bitte?",
+    "image": "",
+    "hint": "礼貌用语"
+  },
+  {
+    "de": "(das) Chinesisch",
+    "zh": "汉语",
+    "example": "auf Chinesisch",
+    "image": "",
+    "hint": "名词/语言名"
+  },
+  {
+    "de": "der Tag",
+    "zh": "白天；日子",
+    "example": "Tag!",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Tage"
+  },
+  {
+    "de": "der Herr",
+    "zh": "先生",
+    "example": "Guten Tag, Herr Zhang.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Herren"
+  },
+  {
+    "de": "die Frau",
+    "zh": "妇女；太太；夫人",
+    "example": "Frau Li",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Frauen"
+  },
+  {
+    "de": "der Name",
+    "zh": "名字",
+    "example": "Mein Name ist Anna.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Namen"
+  },
+  {
+    "de": "der Mann",
+    "zh": "男人；丈夫",
+    "example": "Er ist ein Mann.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Männer"
+  },
+  {
+    "de": "die Tafel",
+    "zh": "黑板",
+    "example": "Die Tafel ist grün.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Tafeln"
+  },
+  {
+    "de": "das Heft",
+    "zh": "练习本；本子",
+    "example": "Das Heft ist hier.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Hefte"
+  },
+  {
+    "de": "die Uhr",
+    "zh": "表；钟",
+    "example": "Die Uhr ist neu.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Uhren"
+  },
+  {
+    "de": "das Buch",
+    "zh": "书",
+    "example": "Das Buch ist da.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Bücher"
+  },
+  {
+    "de": "das Bild",
+    "zh": "图片；图画",
+    "example": "Das Bild ist schön.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Bilder"
+  },
+  {
+    "de": "die Lampe",
+    "zh": "灯",
+    "example": "Die Lampe ist hell.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Lampen"
+  },
+  {
+    "de": "das Papier",
+    "zh": "纸",
+    "example": "Papier, bitte.",
+    "image": "",
+    "hint": "名词, 中性; 通常无复数/不可数"
+  },
+  {
+    "de": "der Computer",
+    "zh": "电脑",
+    "example": "Der Computer ist neu.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Computer"
+  },
+  {
+    "de": "die Wand",
+    "zh": "墙",
+    "example": "Die Wand ist weiß.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Wände"
+  },
+  {
+    "de": "die Hand",
+    "zh": "手",
+    "example": "Die Hand tut weh.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Hände"
+  },
+  {
+    "de": "Uta",
+    "zh": "乌塔（女名）",
+    "example": "Ich heiße Uta.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Rudi",
+    "zh": "鲁迪（男名）",
+    "example": "Er heißt Rudi.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Anna",
+    "zh": "安娜（女名）",
+    "example": "Sie heißt Anna.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Anita",
+    "zh": "安妮塔（女名）",
+    "example": "Sie heißt Anita.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Hans",
+    "zh": "汉斯（男名）",
+    "example": "Er heißt Hans.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Udo",
+    "zh": "乌多（男名）",
+    "example": "Er heißt Udo.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Dieter",
+    "zh": "迪特（男名）",
+    "example": "Er heißt Dieter.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Gabi",
+    "zh": "加比（女名）",
+    "example": "Sie heißt Gabi.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Kuhn",
+    "zh": "库恩（姓氏）",
+    "example": "Er heißt Kuhn.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Mai",
+    "zh": "麦/迈（姓氏）",
+    "example": "Sie heißt Mai.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Kant",
+    "zh": "康德（姓氏）",
+    "example": "Er heißt Kant.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Bamm",
+    "zh": "班姆（姓氏）",
+    "example": "Er heißt Bamm.",
+    "image": "",
+    "hint": "Familienname"
+  },
+  {
+    "de": "Kittmann",
+    "zh": "基特曼（姓氏）",
+    "example": "Er heißt Kittmann.",
+    "image": "",
+    "hint": "Familienname"
+  }
+]

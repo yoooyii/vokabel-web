@@ -1,0 +1,303 @@
+[
+  {
+    "de": "die Familie",
+    "zh": "家庭",
+    "example": "Meine Familie ist groß.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Familien"
+  },
+  {
+    "de": "die Mutter",
+    "zh": "母亲",
+    "example": "Meine Mutter ist Ärztin.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Mütter"
+  },
+  {
+    "de": "der Vater",
+    "zh": "父亲",
+    "example": "Mein Vater arbeitet in Hamburg.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Väter"
+  },
+  {
+    "de": "die Eltern",
+    "zh": "父母",
+    "example": "Meine Eltern wohnen in Berlin.",
+    "image": "",
+    "hint": "名词, 复数词"
+  },
+  {
+    "de": "die Tochter",
+    "zh": "女儿",
+    "example": "Die Tochter studiert Medizin.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Töchter"
+  },
+  {
+    "de": "der Sohn",
+    "zh": "儿子",
+    "example": "Der Sohn geht zur Schule.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Söhne"
+  },
+  {
+    "de": "die Geschwister",
+    "zh": "兄弟姐妹",
+    "example": "Ich habe zwei Geschwister.",
+    "image": "",
+    "hint": "名词, 复数词"
+  },
+  {
+    "de": "der Bruder",
+    "zh": "兄弟",
+    "example": "Mein Bruder spielt Fußball.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Brüder"
+  },
+  {
+    "de": "die Schwester",
+    "zh": "姐妹",
+    "example": "Meine Schwester lernt Deutsch.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Schwestern"
+  },
+  {
+    "de": "die Frau",
+    "zh": "妻子；女人",
+    "example": "Meine Frau ist Lehrerin.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Frauen"
+  },
+  {
+    "de": "der Mann",
+    "zh": "丈夫；男人",
+    "example": "Mein Mann arbeitet in einer Firma.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Männer"
+  },
+  {
+    "de": "die Eltern von ...",
+    "zh": "……的父母",
+    "example": "Die Eltern von Anna wohnen in München.",
+    "image": "",
+    "hint": "固定短语"
+  },
+  {
+    "de": "der Beruf",
+    "zh": "职业",
+    "example": "Was bist du von Beruf?",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Berufe"
+  },
+  {
+    "de": "arbeiten (+A/bei/in)",
+    "zh": "工作",
+    "example": "Ich arbeite in einer Bank.",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "der Lehrer",
+    "zh": "教师",
+    "example": "Mein Vater ist Lehrer.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Lehrer"
+  },
+  {
+    "de": "die Lehrerin",
+    "zh": "女教师",
+    "example": "Meine Mutter ist Lehrerin.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Lehrerinnen"
+  },
+  {
+    "de": "der Arzt",
+    "zh": "医生",
+    "example": "Der Arzt arbeitet im Krankenhaus.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Ärzte"
+  },
+  {
+    "de": "die Ärztin",
+    "zh": "女医生",
+    "example": "Die Ärztin hilft den Patienten.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Ärztinnen"
+  },
+  {
+    "de": "der Ingenieur",
+    "zh": "工程师",
+    "example": "Er ist Ingenieur von Beruf.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Ingenieure"
+  },
+  {
+    "de": "die Ingenieurin",
+    "zh": "女工程师",
+    "example": "Sie ist Ingenieurin bei Siemens.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Ingenieurinnen"
+  },
+  {
+    "de": "der Verkäufer",
+    "zh": "售货员",
+    "example": "Der Verkäufer ist freundlich.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Verkäufer"
+  },
+  {
+    "de": "die Verkäuferin",
+    "zh": "女售货员",
+    "example": "Die Verkäuferin arbeitet im Supermarkt.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Verkäuferinnen"
+  },
+  {
+    "de": "der Schüler",
+    "zh": "（中小学）学生",
+    "example": "Der Schüler lernt gut.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Schüler"
+  },
+  {
+    "de": "die Schülerin",
+    "zh": "女学生（中小学）",
+    "example": "Die Schülerin liest ein Buch.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Schülerinnen"
+  },
+  {
+    "de": "der Student",
+    "zh": "大学生",
+    "example": "Der Student studiert Physik.",
+    "image": "",
+    "hint": "名词, 阳性; 复数: Studenten"
+  },
+  {
+    "de": "die Studentin",
+    "zh": "女大学生",
+    "example": "Die Studentin studiert Germanistik.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Studentinnen"
+  },
+  {
+    "de": "die Universität",
+    "zh": "大学",
+    "example": "Die Universität liegt in der Stadt.",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Universitäten"
+  },
+  {
+    "de": "lernen (+A)",
+    "zh": "学习",
+    "example": "Ich lerne Deutsch.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "studieren (+A)",
+    "zh": "在大学学习",
+    "example": "Er studiert Medizin.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "das Fach",
+    "zh": "学科；专业",
+    "example": "Mein Fach ist Informatik.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Fächer"
+  },
+  {
+    "de": "die Sprache",
+    "zh": "语言",
+    "example": "Welche Sprache lernst du?",
+    "image": "",
+    "hint": "名词, 阴性; 复数: Sprachen"
+  },
+  {
+    "de": "das Deutsch",
+    "zh": "德语",
+    "example": "Ich spreche ein bisschen Deutsch.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "das Englisch",
+    "zh": "英语",
+    "example": "Er spricht gut Englisch.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "das Chinesisch",
+    "zh": "汉语",
+    "example": "Sie lernt Chinesisch.",
+    "image": "",
+    "hint": "名词, 中性"
+  },
+  {
+    "de": "sprechen (+A)",
+    "zh": "说",
+    "example": "Er spricht Deutsch und Englisch.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "das Hobby",
+    "zh": "爱好",
+    "example": "Mein Hobby ist Musik.",
+    "image": "",
+    "hint": "名词, 中性; 复数: Hobbys"
+  },
+  {
+    "de": "tanzen",
+    "zh": "跳舞",
+    "example": "Ich tanze gern.",
+    "image": "",
+    "hint": "动词"
+  },
+  {
+    "de": "lesen (+A)",
+    "zh": "读，阅读",
+    "example": "Er liest ein Buch.",
+    "image": "",
+    "hint": "动词 + Akkusativ"
+  },
+  {
+    "de": "musik hören",
+    "zh": "听音乐",
+    "example": "Ich höre gern Musik.",
+    "image": "",
+    "hint": "短语"
+  },
+  {
+    "de": "Fußball spielen",
+    "zh": "踢足球",
+    "example": "Wir spielen Fußball im Park.",
+    "image": "",
+    "hint": "短语"
+  },
+  {
+    "de": "Elisabeth",
+    "zh": "伊丽莎白（女名）",
+    "example": "Sie heißt Elisabeth.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Michael",
+    "zh": "米夏埃尔（男名）",
+    "example": "Er heißt Michael.",
+    "image": "",
+    "hint": "Vorname"
+  },
+  {
+    "de": "Hamburg",
+    "zh": "汉堡（德国城市）",
+    "example": "Hamburg ist eine große Stadt.",
+    "image": "",
+    "hint": "Stadt"
+  }
+]
