@@ -35,7 +35,7 @@
 
       </div>
     </header>
-    <!-- 课次筛选（HTML） ——— NEW -->
+    <!-- 课次筛选（HTML）-->
   <label class="text-sm flex items-center gap-2">
     课次：
     <select id="lessonSelect" class="px-2 py-1 border rounded">
@@ -135,7 +135,7 @@
     document.getElementById('btnPrevPage').onclick = ()=> next(-1);
     document.getElementById('btnNextPage').onclick = ()=> next(+1);
 
-    // NEW: 清空全部单词按钮
+    // 清空全部单词按钮
     document.getElementById('btnClearAll').onclick = ()=>{
       if(confirm('确定要清空所有导入的单词以及清除学习进度吗？\\n（不会清空进度备份文件）')){
         localStorage.removeItem('de_vocab_deck_v1');
@@ -146,7 +146,7 @@
 
 
 
-    /** 初始示例卡片（请用你的 Vokabel 替换/导入） */
+    /** 初始示例卡片（请用Vokabel 替换/导入） */
     const initialCards = [
       {de: 'Guten Tag', zh: '您好', example: "Guten Tag! Wie geht's?", image: '', hint: '问候'},
       {de: 'danke', zh: '谢谢', example: 'Danke für deine Hilfe.', image: '', hint: '常用表达'},
@@ -229,7 +229,7 @@
     function fmtDate(ts){ if(!ts) return '—'; const d=new Date(ts); return d.toLocaleString(); }
     function isDue(card){ const p=getCardProgress(card); return Date.now()>= (p.due||0); }
 
-    // NEW: 根据当前 deck 重建课次下拉选项
+    // 根据当前 deck 重建课次下拉选项
     function rebuildLessonFilter(){
       const sel = document.getElementById('lessonSelect');
       if(!sel) return;
@@ -252,16 +252,16 @@
       if(onlyDue) filtered = filtered.filter(isDue);
 
       if(filtered.length===0){
-        // 你的“空数据提示”保留
+        // “空数据提示”保留
       }else{
-        shuffle(filtered); // 如果你原来会打乱顺序，保留
+        shuffle(filtered); // 原来会打乱顺序，保留
       }
       idx = 0;
       renderCard();
       renderStats();
     }
 
-    // NEW: 渲染统计信息
+    // 渲染统计信息
     function renderStats(){
       const dueCount = deck.filter(isDue).length;
       const statsEl = document.getElementById('stats');
@@ -270,7 +270,7 @@
     }
 
 
-    // NEW: 课次下拉变更时刷新
+    // 课次下拉变更时刷新
     document.getElementById('lessonSelect')?.addEventListener('change', applyFilter);
 
 
@@ -353,12 +353,12 @@
       const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'deck_export.json'; a.click();
     };
 
-    // 文件导入 ——— CHANGED
+    // 文件导入
     els.fileImport.onchange = async (e)=>{
       const f = e.target.files?.[0]; if(!f) return;
       const text = await f.text();
-      const lessonByName = inferLessonFromFilename(f.name);     // NEW: 从文件名推断课次
-      importText(text, lessonByName);                            // NEW: 传给 importText
+      const lessonByName = inferLessonFromFilename(f.name);     // 从文件名推断课次
+      importText(text, lessonByName);                            // 传给 importText
     };
 
 
@@ -382,9 +382,9 @@
       try{
         let items = [];
         if(text.trim().startsWith('[')) items = JSON.parse(text);
-        else items = csvToJson(text); // 你已有的 CSV→JSON 函数
+        else items = csvToJson(text); // 已有的 CSV→JSON 函数
 
-        // NEW: 填充 lesson 字段（不改原文件）
+        // 填充 lesson 字段（不改原文件）
         const shaped = items.map(x=>({
           de: (x.de||x.word||x.term||'').trim(),
           zh: (x.zh||x.cn||x.cn_meaning||x.meaning||'').trim(),
@@ -404,7 +404,7 @@
         alert('导入失败：'+err.message);
       }
     }
-    // NEW: 从文件名推断课次
+    // 从文件名推断课次
     function inferLessonFromFilename(name){
       const m = name.match(/lektion\s*(\d+)/i) || name.match(/lesson[_-]?(\d+)/i) || name.match(/\bL(\d+)\b/i);
       return m ? m[1] : '';  // 找不到就返回空字符串
@@ -459,7 +459,7 @@
     }
 
     // 初次渲染
-    rebuildLessonFilter();  // NEW
+    rebuildLessonFilter(); 
     applyFilter();
   </script>
 </body>
